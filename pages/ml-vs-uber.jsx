@@ -101,7 +101,7 @@ const UniversityArticle = () => {
                    Uber migrated from Node to Go</a> to improve the performance of their geofence 
                   lookup microservice. This microservice turned out to be the company’s service with 
                   the most queries per second (QPS). There were several reasons why Uber decided to 
-                  migrate to <a href="https://go.dev/" target="_blank">Go</a>.  At the time their engineering team
+                  migrate to <a  className="lil-blu-link" href="https://go.dev/" target="_blank">Go</a>.  At the time their engineering team
                   was facing the following challenges: the dynamically typed 
                   and interpreted nature of Node.js hinders the ability to handle CPU-intensive point-in-polygon algorithms efficiently.
                 </p>
