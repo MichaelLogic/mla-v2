@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
-const index5 = () => {
+const index = () => {
   return (
     <Layout footer={5} header={5}>
       <Home5Slider />
@@ -810,4 +810,4 @@ const index5 = () => {
     </Layout>
   );
 };
-export default index5;
+export default index;

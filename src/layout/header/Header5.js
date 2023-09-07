@@ -11,36 +11,33 @@ const Header5 = ({ singleMenu }) => {
             <div className="col-lg-7">
               <ul className="top-left">
                 <li>
-                  <i className="far fa-map-marker-alt" /> 963 main Street,
-                  Melbourne, Australia
+                  <i className="far fa-map-marker-alt" /> 5500 South Shore Dr,
+                  Chicago, IL
                 </li>
                 <li>
-                  <i className="far fa-clock" /> Monday - Friday, 10am - 5pm
+                  <i className="far fa-clock" /> Monday - Friday, 8am - 6pm
                 </li>
               </ul>
             </div>
             <div className="col-lg-5">
               <div className="top-right">
-                <div className="lang-select">
+                {/*<div className="lang-select">
                   <select name="language" id="language">
                     <option value="English">English</option>
                     <option value="Arabic">Arabic</option>
                     <option value="Bangla">Bangla</option>
                     <option value="Hindi">Hindi</option>
                   </select>
-                </div>
+                </div>*/}
                 <div className="social-style-two">
-                  <a href="#">
+                  <a href="https://twitter.com/MikeLogic">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
+                  <a href="https://www.linkedin.com/in/michaellogic/">
+                    <i className="fab fa-linkedin" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/michaellogic/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-pinterest-p" />
                   </a>
                 </div>
               </div>
@@ -57,9 +54,9 @@ const Header5 = ({ singleMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
-                      alt="Logo"
-                      title="Logo"
+                      src="assets/images/logos/ml_logo.png"
+                      alt="Michael Logic™"
+                      title="Michael Logic Logo"
                     />
                   </a>
                 </Link>
@@ -83,7 +80,7 @@ const Header5 = ({ singleMenu }) => {
                 </div>
                 <div className="content">
                   <span>Call Anytime</span>
-                  <a href="callto:985236425288">98 523 642 5288</a>
+                  <a href="callto:7086640953">708.664.0953</a>
                 </div>
               </div>
               {/* menu sidbar */}
