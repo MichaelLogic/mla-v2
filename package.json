@@ -1,7 +1,7 @@
 {
   "name": "ygency-react",
   "version": "1.5.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
