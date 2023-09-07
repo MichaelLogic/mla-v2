@@ -2,6 +2,9 @@
   "name": "dream-merch-react",
   "version": "1.5.1",
   "private": false,
+  "publishConfig": {
+    "registry": "https://pkgs.dev.azure.com/BHEC-DA2/_packaging/DreamMerch_Artfx/npm/registry/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
