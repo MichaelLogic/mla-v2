@@ -42,7 +42,7 @@ stages:
           workingFile: $(Build.SourcesDirectory)/.npmrc
           
       - task: CmdLine@2
-        displayName: 'Publish DreamMerchant Build Artifact'
+        displayName: 'Publish Dream Merchant Build Artifact'
         inputs:
           script: |
             cd '$(Build.SourcesDirectory)' # path to Node source
