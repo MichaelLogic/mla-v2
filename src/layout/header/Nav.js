@@ -10,9 +10,9 @@ const Nav = ({ singleMenu }) => {
             <Link legacyBehavior href="/">
               <a>
                 <img
-                  src="assets/images/logos/logo.png"
-                  alt="Logo"
-                  title="Logo"
+                  src="assets/images/logos/ml_logo.png"
+                  alt="Michael Logic™"
+                  title="Michael Logic Logo"
                 />
               </a>
             </Link>

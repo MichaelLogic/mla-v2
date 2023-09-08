@@ -16,59 +16,99 @@ const index = () => {
       {/* Client Logo Two start */}
       <div className="client-logo-area pt-120 pb-90 rpt-100 rpb-70">
         <div className="container">
+          <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+            <span className="sub-title mb-20">Michael has receipts!</span>
+            <h2>Over 2 Decades of Technical Magic Peformed</h2>
+          </div>
           <div className="client-logo-wrap">
             <Link
               className="client-logo-item wow fadeInUp delay-0-2s"
               href="contact"
             >
-              <img
-                src="assets/images/client-logos/client-logo1.png"
-                alt="Client Logo"
+              <img className="rounded-circle"
+                src="assets/images/client-logos/abilify_logo_sm.jpg"
+                alt="Abilify"
               />
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-3s"
               href="contact"
             >
-              <img
-                src="assets/images/client-logos/client-logo2.png"
-                alt="Client Logo"
+              <img className="rounded-circle"
+                src="assets/images/client-logos/beamglobal_logo_sm.jpg"
+                alt="Beam Global"
               />
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-4s"
               href="contact"
             >
-              <img
-                src="assets/images/client-logos/client-logo3.png"
-                alt="Client Logo"
+              <img className="rounded-circle"
+                src="assets/images/client-logos/buona_logo_sm.jpg"
+                alt="Buona Beef"
               />
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-5s"
               href="contact"
             >
-              <img
-                src="assets/images/client-logos/client-logo4.png"
-                alt="Client Logo"
+              <img className="rounded-circle"
+                src="assets/images/client-logos/chicagojobs_logo_sm.jpg"
+                alt="Shaker Advertising"
               />
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-6s"
               href="contact"
             >
-              <img
-                src="assets/images/client-logos/client-logo5.png"
-                alt="Client Logo"
+              <img  className="rounded-circle"
+                src="assets/images/client-logos/davidtutera_logo_sm.png"
+                alt="David Tutera"
               />
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-7s"
               href="contact"
             >
-              <img
-                src="assets/images/client-logos/client-logo6.png"
-                alt="Client Logo"
+              <img  className="rounded-circle"
+                src="assets/images/client-logos/infiniti_logo_sm.jpg"
+                alt="Infiniti"
+              />
+            </Link>
+            <Link
+              className="client-logo-item wow fadeInUp delay-0-7s"
+              href="contact"
+            >
+              <img  className="rounded-circle"
+                src="assets/images/client-logos/mcdonalds_logo_sm.jpg"
+                alt="McDonalds"
+              />
+            </Link>
+            <Link
+              className="client-logo-item wow fadeInUp delay-0-7s"
+              href="contact"
+            >
+              <img  className="rounded-circle"
+                src="assets/images/client-logos/planters_logo_sm.jpg"
+                alt="Planters"
+              />
+            </Link>
+            <Link
+              className="client-logo-item wow fadeInUp delay-0-7s"
+              href="contact"
+            >
+              <img  className="rounded-circle"
+                src="assets/images/client-logos/skinnygirl_logo_sm.jpg"
+                alt="SkinnyGirl"
+              />
+            </Link>
+            <Link
+              className="client-logo-item wow fadeInUp delay-0-7s"
+              href="contact"
+            >
+              <img  className="rounded-circle"
+                src="assets/images/client-logos/wellsfargo_logo_sm.jpg"
+                alt="Wells Fargo"
               />
             </Link>
           </div>

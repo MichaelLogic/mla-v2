@@ -15,7 +15,7 @@ const DefaultFooter = () => {
               <div className="footer-logo mb-20 wow fadeInRight delay-0-2s animated">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/footer-logo.png" alt="Logo" />
+                    <img src="assets/images/logos/footer-ml-logo.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
@@ -51,15 +51,15 @@ const DefaultFooter = () => {
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:support@michaellogic.com"
                 >
-                  support@gmail.com <i className="far fa-arrow-right" />
+                  support@michaellogic.com <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:7086640953"
                 >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
+                  708.664.0953<i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -161,7 +161,7 @@ const DefaultFooter = () => {
                 <p>
                   Copyright @2023,{" "}
                   <Link legacyBehavior href="/">
-                    <a>Ygency</a>
+                    <a>Michael Logic Administration LLC.</a>
                   </Link>{" "}
                   All Rights Reserved
                 </p>
