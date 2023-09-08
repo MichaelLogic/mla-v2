@@ -7,11 +7,11 @@ trigger:
 stages:
   - stage: Build
     displayName: 'Build Dream Merchant Marketing App'
-    pool: 'DreamMerchant BuildPool'
+    pool: 'DreamMerch Pool'
     jobs:
     - job: BuildFrontend
       displayName: 'Install Node, Build, & Publish Artifact'
-      pool: 'DreamMerchant BuildPool'
+      pool: 'DreamMerch Pool'
       steps:
       # Create or update the ACR resource
       - task: AzureResourceGroupDeployment@2
