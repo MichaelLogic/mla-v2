@@ -9060,3 +9060,10 @@ blockquote {
     color: var(--ygency-primary-color); }
   .footer-five .footer-info .list-style-two li a:hover {
     font-size: 24px; }
+
+
+.logic-home {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}

@@ -35,7 +35,7 @@ export default class Home5Slider extends Component {
             >
               <div className="container">
                 <div className="slide-content">
-                  <span className="sub-title">Catch Michael Logic™ ... </span>
+                  <span className="sub-title"> Catch Michael Logic™ ... </span>
                   <h2 className="d-none d-lg-block">
                     <span>a wizard for</span>
                     <br /> adding AI to grow your business!
@@ -46,6 +46,7 @@ export default class Home5Slider extends Component {
                       Make a Wish Now <i className="far fa-arrow-right" />
                     </a>
                   </div>
+                  <img src="assets/images/logic/ml_happy.png" class="float-left" alt="Michael Logic in a blue linen suit"/>
                 </div>
               </div>
             </div>
@@ -92,7 +93,7 @@ export default class Home5Slider extends Component {
             <div
               className="slider-item"
               style={{
-                backgroundImage: "url(assets/images/slider/bg01_mob_dreammerch.jpg)",
+                backgroundImage: "url(assets/images/slider/bg01_mobl_dreammerch.jpg)",
               }}
             >
               <div className="container">
@@ -119,7 +120,7 @@ export default class Home5Slider extends Component {
             <div
               className="slider-item"
               style={{
-                backgroundImage: "url(assets/images/slider/bg02_mob_dreammerch.jpg)",
+                backgroundImage: "url(assets/images/slider/bg02_mobl_dreammerch.jpg)",
               }}
             >
               <div className="container">

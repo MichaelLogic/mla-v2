@@ -18,7 +18,7 @@ const index = () => {
         <div className="container">
           <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-20">Michael has receipts!</span>
-            <h2>Over 2 Decades of Technical Magic Peformed</h2>
+            <h2>Over 2 Decades of Technical Magic Performed</h2>
           </div>
           <div className="client-logo-wrap">
             <Link
@@ -53,7 +53,7 @@ const index = () => {
               href="contact"
             >
               <img className="rounded-circle"
-                src="assets/images/client-logos/chicagojobs_logo_sm.jpg"
+                src="assets/images/client-logos/shaker_logo_sm.jpg"
                 alt="Shaker Advertising"
               />
             </Link>
@@ -62,7 +62,7 @@ const index = () => {
               href="contact"
             >
               <img  className="rounded-circle"
-                src="assets/images/client-logos/davidtutera_logo_sm.png"
+                src="assets/images/client-logos/davidtutera_logo_sm.jpg"
                 alt="David Tutera"
               />
             </Link>
@@ -113,78 +113,286 @@ const index = () => {
             </Link>
           </div>
         </div>
+        <div className="container-fluid">
+          <Swiper
+            {...sliderProps.galleryFiveActive}
+            className="gallery-five-active"
+          >
+            <SwiperSlide>
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/projects/wellsfargo_screen_prevu.jpg"
+                    alt="Wells Fargo project"
+                  />
+                </div>
+                <div className="content">
+                  <h4>
+                    Wells Fargo™
+                  </h4>
+                </div>
+              </div>
+            </SwiperSlide>{" "}
+
+            <SwiperSlide>
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/projects/mcdonalds_screen_prevu.jpg"
+                    alt="McDonalds"
+                  />
+                </div>
+                <div className="content">
+                  <h4>
+                    McDonald's™
+                  </h4>
+                </div>
+              </div>
+            </SwiperSlide>{" "}
+
+            <SwiperSlide>
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/projects/skinnygirl_screen_prevu.jpg"
+                    alt="McDonalds"
+                  />
+                </div>
+                <div className="content">
+                  <h4>
+                    SkinnyGirl Cocktails™
+                  </h4>
+                </div>
+              </div>
+            </SwiperSlide>{" "}
+
+            <SwiperSlide>
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/projects/infiniti_screen_prevu.jpg"
+                    alt="McDonalds"
+                  />
+                </div>
+                <div className="content">
+                  <h4>
+                    Infiniti™
+                  </h4>
+                </div>
+              </div>
+            </SwiperSlide>{" "}
+
+            <SwiperSlide>
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/projects/beamglobal_screen_prevu.jpg"
+                    alt="McDonalds"
+                  />
+                </div>
+                <div className="content">
+                  <h4>
+                    Beam™ Global
+                  </h4>
+                </div>
+              </div>
+            </SwiperSlide>{" "}
+            
+          </Swiper>
+          {/*<div className="work-gallery-controls">
+            <button className="work-gallery-prev slick-arrow">
+              <i className="far fa-chevron-left" />
+            </button>
+            <div className="work-gallery-dots slick-dots" />
+            <button className="work-gallery-next slick-arrow">
+              <i className="far fa-chevron-right" />
+            </button>
+          </div>*/}
+        </div>
       </div>
       {/* Client Logo Two end */}
-      {/* Service Box start */}
-      <section className="what-we-offer pb-90 rpb-70">
+
+      {/* What We Provide start */}
+      <section className="what-we-provide-area pt-130 rpt-100 rel z-1">
         <div className="container container-1290">
-          <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-            <span className="sub-title mb-20">What We offer</span>
-            <h2>Amazing Service For Marketing Agency</h2>
-          </div>
           <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-three wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="flaticon-ux" />
-                </div>
-                <div className="number">01</div>
-                <h4>
-                  <Link href="service-details">Search engine optimization</Link>
-                </h4>
-                <Link href="service-details" className="more">
-                  <i className="far fa-arrow-right" />
-                </Link>
+            <div className="col-xl-7 col-lg-9 wow fadeInUp delay-0-2s">
+              <div className="section-title style-two text-center mb-70">
+                <span className="sub-title mb-15">Do you dream of finding</span>
+                <h2>
+                  Senior Level <i>Engineering</i> Coupled with Visionary <i>Leadership</i>?
+                </h2>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-three wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="flaticon-engineering" />
-                </div>
-                <div className="number">02</div>
-                <h4>
-                  <Link href="service-details">Social media marketing</Link>
-                </h4>
-                <Link href="service-details" className="more">
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-three wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="flaticon-optimization-1" />
-                </div>
-                <div className="number">03</div>
-                <h4>
-                  <Link href="service-details">Online marketing strategy</Link>
-                </h4>
-                <Link href="service-details" className="more">
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-three wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="flaticon-ai" />
-                </div>
-                <div className="number">04</div>
-                <h4>
-                  <Link href="service-details">
-                    Digital Product Development
+          </div>
+          <div className="row">
+            <div className="col-xl-4 col-md-6">
+              <div className="we-provide-item wow fadeInUp delay-0-2s">
+                <span className="serial-number">CODE</span>
+                <h3>
+                  <Link legacyBehavior href="/service-details">
+                    <a>
+                      Full Stack <span>Engineering</span>
+                    </a>
                   </Link>
-                </h4>
-                <Link href="service-details" className="more">
-                  <i className="far fa-arrow-right" />
-                </Link>
+                </h3>
+                <p>
+                  Do you need a miracle worker to assist in launching/modifying an enterprise 
+                  system on a deadline that would terrify normal employees? 
+                </p>
+                <div className="tags">
+                  <Link legacyBehavior href="/services">
+                    Python
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Java
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Javascript
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    C#
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Go
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Ruby
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Node.js
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Django
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Spring Boot
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    React.js/Next.js
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Angular
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="we-provide-item wow fadeInUp delay-0-4s">
+                <span className="serial-number">DATA</span>
+                <h3>
+                  <Link legacyBehavior href="/service-details">
+                    <a>
+                      Data Science &amp; <span>Architecture</span>
+                    </a>
+                  </Link>
+                </h3>
+                <p>
+                  Do you need flat data to tell an elaborate 3D story that 
+                  can be used to increase your bottom line revenue and success rate?
+                </p>
+                <div className="tags">
+                  <Link legacyBehavior href="/services">
+                    SQL / NoSQL
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Key Pair Solutions
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Pandas
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Power BI
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Jupyter
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Hadoop
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Spark
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="we-provide-item wow fadeInUp delay-0-6s">
+                <span className="serial-number">AI</span>
+                <h3>
+                  <Link legacyBehavior href="/service-details">
+                    <a>
+                      AI &amp; Machine <span>Learning</span>
+                    </a>
+                  </Link>
+                </h3>
+                <p>
+                  Are you just using "AI" in your marketing?
+                  Or do you need a visionary with the technical ability to customize an AI solution formulated specifically for your business goals?
+                </p>
+                <div className="tags">
+                  <Link legacyBehavior href="/services">
+                    scikit-learn
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    NumPy
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    OpenAI
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    TensorFlow
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    PyTorch
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Natural Language Kit
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Azure AI Studio
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="we-provide-item wow fadeInUp delay-0-6s">
+                <span className="serial-number">DevOps</span>
+                <h3>
+                  <Link legacyBehavior href="/service-details">
+                    <a>
+                      Developer Operations &amp; <span>CI/CD</span>
+                    </a>
+                  </Link>
+                </h3>
+                <p>
+                  Do you have a dream of coordinating your tech team to operate
+                  in impressive harmony like a well tuned orchestra?
+                </p>
+                <div className="tags">
+                  <Link legacyBehavior href="/services">
+                    Deployment Automation
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Continuous Integration
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Continous Delivery
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Infrastructure as Code (IaC)
+                  </Link>
+                  <Link legacyBehavior href="/services">
+                    Azure DevOps
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* Service Box end */}
+      {/* What We Provide end */}
+
       {/* About Us Area start */}
       <section className="about-area-five py-130 rpy-100 rel z-1">
         <div className="container container-1290">

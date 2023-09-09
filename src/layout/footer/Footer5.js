@@ -7,12 +7,11 @@ const Footer5 = () => {
             <div className="footer-widget footer-about wow fadeInUp delay-0-2s">
               <div className="footer-logo mb-25">
                 <a href="index.html">
-                  <img src="assets/images/logos/logo.png" alt="Logo" />
+                  <img src="assets/images/logos/footer-ml_logo.png" alt="Michael Logic" />
                 </a>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error voluptatem
-                accusantium totam reme
+                Your Tech Dream Merchant!
               </p>
             </div>
           </div>
@@ -25,11 +24,7 @@ const Footer5 = () => {
                 </li>
                 <li>
                   <i className="far fa-phone" />{" "}
-                  <a href="callto:+000(123)45688">+000 (123) 456 88</a>
-                </li>
-                <li>
-                  <i className="far fa-clock" />{" "}
-                  <span>Monday - Friday, 10am - 5pm</span>
+                  <a href="callto:7086640953">708.665.0953</a>
                 </li>
               </ul>
             </div>
@@ -58,7 +53,7 @@ const Footer5 = () => {
             <div className="col-lg-6">
               <div className="footer-copyright-text wow fadeInUp delay-0-2s">
                 <p>
-                  Copyright @2023, <a href="index.html">Ygency</a> All Rights
+                  Copyright @2023, <a href="index.html">Michael Logic Administration LLC</a> All Rights
                   Reserved
                 </p>
               </div>
