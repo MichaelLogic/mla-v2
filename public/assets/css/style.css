@@ -4190,7 +4190,7 @@ h6, .h6 {
       padding-top: 170px; } }
   @media only screen and (max-width: 991px) {
     .slider-item {
-      padding-top: 160px; } }
+      padding-top: 215px; } }
   .slider-item:before {
     mix-blend-mode: multiply; }
 
@@ -9063,6 +9063,7 @@ blockquote {
 
 
 .logic-home {
+  display: block;
   position: absolute;
   top: 50px;
   right: 50px;
