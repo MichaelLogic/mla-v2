@@ -7012,7 +7012,7 @@ blockquote {
           display: inline-block;
           text-decoration: none;
           background: var(--ygency-dark-color); }
-    .project-item.style-five:hover .content .category {
+    /*.project-item.style-five:hover .content .category {
       opacity: 1;
       -webkit-transition-delay: 0.5s;
       -o-transition-delay: 0.5s;
@@ -7021,7 +7021,7 @@ blockquote {
       opacity: 1;
       -webkit-transition-delay: 0.25s;
       -o-transition-delay: 0.25s;
-      transition-delay: 0.25s; }
+      transition-delay: 0.25s; }*/
 
 .gallery-five-active {
   margin-left: -15px;
@@ -7930,6 +7930,13 @@ blockquote {
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s; }
+    .work-step-item .step-number:before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+      background: url(../images/icons/suit-heart-fill.svg) no-repeat 100% 100%; }
+
   .work-step-item .title {
     font-size: 22px;
     margin-bottom: 30px;

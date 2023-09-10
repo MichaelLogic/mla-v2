@@ -404,17 +404,22 @@ const index = () => {
       <section className="about-area-five py-130 rpy-100 rel z-1">
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
+            <div className="col-xl-5 col-lg-6">
+              <div className="about-five-images rmt-50 wow fadeInLeft delay-0-2s">
+                <img
+                    src="assets/images/logic/incompetentstaff_web.jpg"
+                    alt="PushinKeys: Talent Pipeline Challenge cover"
+                  />
+              </div>
+            </div>
             <div className="col-lg-6">
               <div className="about-content-five">
                 <div className="section-title mb-40 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">About Company</span>
-                  <h2>The World Class Digital Marketing Agency</h2>
+                  <span className="sub-title mb-15">Talent Poster Child</span>
+                  <h2>Is the target workforce The Biden-Harris Administration Talent Pipeline Challenge?</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium, totam reme aperiam eaque
-                  quae abillo inventorey veritatis quasi architecto beatae vitae
-                  dicta sunt explicabo.
+                  <b>"Pushin Keys"</b>: <i>an urban phrase that creates a double entrendre when applied to software engineering; Michael uses it to attract more youth to the tech lifestyle.</i>
                 </p>
                 <div className="authors-text mt-45 pt-50">
                   <img src="assets/images/about/author1.jpg" alt="Author" />
@@ -423,30 +428,13 @@ const index = () => {
                   <img src="assets/images/about/author4.jpg" alt="Author" />
                   <img src="assets/images/about/author5.jpg" alt="Author" />
                   <span className="text">
-                    We Have <span>5k+ Global</span> Clients Around the World
+                    Are you looking for help to transition into a tech career?
                   </span>
                 </div>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-6">
-              <div className="about-five-images rmt-50 wow fadeInRight delay-0-2s">
-                <div className="image-one">
-                  <img
-                    src="assets/images/about/about-five1.jpg"
-                    alt="About Image"
-                  />
-                </div>
-                <div className="about-five-shape">
-                  <img
-                    src="assets/images/about/about-five-bg.png"
-                    alt="About Five Shape"
-                  />
-                </div>
-                <div className="image-two mt-30">
-                  <img
-                    src="assets/images/about/about-five2.jpg"
-                    alt="About Image"
-                  />
+                <div className="mt-30">
+                  <a href="/talent" className="theme-btn style-two">
+                    Learn More <i className="far fa-arrow-right" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -456,7 +444,7 @@ const index = () => {
       {/* About Us Area end */}
 
       {/* Counter Five start */}
-      <div className="counter-section-five pb-80 rpb-50">
+      <section className="counter-section-five pt-60 pb-80 rpb-50">
         <div className="container container-1290">
           <div className="row">
             <div className="col-xl-4 col-md-6">
@@ -477,20 +465,20 @@ const index = () => {
               <div className="counter-item-three style-two counter-text-wrap wow fadeInRight delay-0-6s">
                 <i className="flaticon-branding" />
                 <Counter end={26} />
-                <span className="counter-title">Federal Patent Claim Contributions</span>
+                <span className="counter-title">Patent Claim Contributions</span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Video Area start */}
       <div className="video-area-five rel z-1">
         <div className="container container-1290">
-          <div className="video-part style-three wow fadeInUp delay-0-2s">
+          <div className="video-part style-three wow fadeInUp delay-0-2s row justify-content-center">
             <img src="assets/images/video/push_button_theory_cvr.jpg" alt="Michael Logic's Push Button Theory" />
             <a
-              href="https://youtu.be/JPAvlNEvtGo"
+              href="https://www.youtube.com/watch?v=JPAvlNEvtGo"
               className="mfp-iframe video-play"
             >
               <i className="fas fa-play" />
@@ -506,7 +494,7 @@ const index = () => {
           <div className="row no-gap">
             <div className="col-xl-5 align-self-center">
               <div className="work-with-image wow fadeInUp delay-0-2s">
-                <img src="assets/images/about/work-with-us.jpg" alt="About" />
+                <img src="assets/images/about/azure_whisperer_ml01.jpg" alt="About" />
               </div>
             </div>
             <div className="col-xl-7 wow fadeInUp delay-0-4s">
@@ -514,20 +502,19 @@ const index = () => {
                 className="work-with-content"
                 style={{
                   backgroundImage:
-                    "url(assets/images/about/work-with-us-bg.jpg)",
+                    "url(assets/images/about/azure_whisperer_ml01.jpg)",
                 }}
               >
                 <div className="section-title mb-10">
-                  <span className="sub-title mb-15">Work With Us</span>
-                  <h2>Have Any Projects On Minds! Contact Us</h2>
+                  <span className="sub-title mb-15">AI Challenge</span>
+                  <h2>Limited Client Offer</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus voluptatem
-                  accusantium doloremque laudantium reme aperiam eaque quae
-                  abillo
+                  Michael Logic is opening up his Microsoft Azure Whisperer trick bag for qualified companies
+                  that want to grow a proprietary advantage over their competition.
                 </p>
                 <Link href="contact" className="theme-btn mt-15">
-                  Let’s Work Together <i className="far fa-arrow-right" />
+                  Let’s Innovate <i className="far fa-arrow-right" />
                 </Link>
               </div>
             </div>
