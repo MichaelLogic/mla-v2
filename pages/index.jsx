@@ -1,6 +1,6 @@
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Layout from "@/src/layout/Layout";
-import LinkPreview from "@/src/componnents/LinkPreview";
+import LinkPreview from "@/src/components/LinkPreview";
 import { sliderProps } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
