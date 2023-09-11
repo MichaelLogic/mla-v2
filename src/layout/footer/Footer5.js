@@ -71,7 +71,7 @@ const Footer5 = () => {
                     <a href="ai-service-details">AI Services</a>
                   </li>
                   <li>
-                    <a href="dasphing">Projects</a>
+                    <a href="dashping">Projects</a>
                   </li>
                 </ul>
               </div>

@@ -12,13 +12,13 @@ const Story = () => {
     <Layout footer={5}>
       {/* Page Banner Section Start */}
       <section
-        className="page-banner pt-210 rpt-150 pb-45 rpb-50 rel z-1"
+        className="page-banner pt-150 rpt-150 pb-45 rpb-50 rel z-1"
         style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container container-1290">
           <div className="row">
             <div className="col-xl-10 col-lg-11">
-              <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
+              <h1 className="hero-title mb-50 rmb-50 wow fadeInUp delay-0-2s">
                 By any means necessary, Michael culvitated innovative vision tightly coupled with decades of tech skills.
               </h1>
             </div>
@@ -32,7 +32,7 @@ const Story = () => {
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
-              <div className="service-about-image rmb-55 wow fadeInUp delay-0-2s">
+              <div className="service-about-image wow fadeInUp delay-0-2s">
                 <img
                   src="assets/images/about/azure_whisperer_ml02_story_web.jpg"
                   alt="About"

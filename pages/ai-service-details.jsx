@@ -57,7 +57,7 @@ const AiServiceDetails = () => {
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
-              <div className="service-about-image rmb-55 wow fadeInLeft delay-0-2s">
+              <div className="service-about-image wow fadeInLeft delay-0-2s">
                 <img
                   src="assets/images/about/azure_whisperer_ml03_web.jpg"
                   alt="About"
@@ -148,7 +148,7 @@ const AiServiceDetails = () => {
       {/* How We Works end */}
 
       {/* Headline area start */}
-      <div className="headline-area bgc-primary pt-80 pb-65">
+      <div className="headline-area bgc-primary mb-30 pt-40 pb-30">
         <div className="container-fluid">
           <div className="headline-wrap marquee">
             <span>
@@ -205,20 +205,23 @@ const AiServiceDetails = () => {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="why-choose-right style-two wow fadeInRight delay-0-2s">
-                <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
-                   target="_blank">
-                  <img
-                    src="assets/images/about/lor_bh_engineering_thum.jpg"
-                    alt="Letter of Recommendation - BH Engineering for AuditTech™"
-                  />
-                </a>
+              <div className="row justify-content-between align-items-center">
+                <div className="why-choose-right style-two wow fadeInRight delay-0-2s">
+                  <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
+                     target="_blank">
+                    <img
+                      src="assets/images/about/lor_bh_engineering_thum.jpg"
+                      alt="Letter of Recommendation - BH Engineering for AuditTech™"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
       {/* Why Choose Us end */}
+
       {/* FAQ's Area start */}
       <section className="faq-area pt-130 rpt-95 pb-105 rpb-75 rel z-1">
         <div className="container container-1290">
