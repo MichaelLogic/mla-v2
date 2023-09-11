@@ -6,6 +6,7 @@ import { Fragment, useEffect, useState } from "react";
 export default function App({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
   const { openGraphData = [] } = pageProps;
+  const { pTitle = "Mike Logic Generic" } = pageProps;
 
   useEffect(() => {
     setTimeout(() => {
@@ -28,9 +29,9 @@ export default function App({ Component, pageProps }) {
           <meta {...og} />
         ))}
 
-        
+
         {/* Title */}
-        <title>Michael Logic - Software Engineering • Data Science</title>
+        <title>{pTitle}</title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"

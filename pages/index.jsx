@@ -536,6 +536,7 @@ const index = () => {
 export const getStaticProps = async () => {
   return {
     props: {
+      pTitle: "Michael Logic™, Mr. Tech Dream Merchant",
       openGraphData: [
         {
           property: "og:image",

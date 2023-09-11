@@ -53,7 +53,7 @@ const AiServiceDetails = () => {
 
 
       {/* Services Page About Area start */}
-      <section className="service-page-about py-130 rpy-100 rel z-1">
+      <section className="service-page-about py-60 rel z-1">
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
@@ -76,7 +76,7 @@ const AiServiceDetails = () => {
                 </p>
                 <ul className="list-style-three pt-15 pb-25">
                   <li>Breakup Homogenous Thought</li>
-                  <li>Translate Business Desires into Proprietary Algorithms</li>
+                  <li>Translate Business Desires into AI Algorithms</li>
                   <li>Implement DevOps for AI Engineering Team</li>
                 </ul>
                 {/*<Link legacyBehavior href="/about">
@@ -186,7 +186,7 @@ const AiServiceDetails = () => {
       {/* Video Area end */}
       
       {/* Why Choose Us start */}
-      <section className="why-choose-area pt-100 rpt-70 rel z-1">
+      <section className="why-choose-area pt-100 pt-70 rel z-1">
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-6 col-lg-8">
@@ -206,7 +206,7 @@ const AiServiceDetails = () => {
             </div>
             <div className="col-xl-6">
               <div className="row justify-content-between align-items-center">
-                <div className="why-choose-right lmt-50 style-two wow fadeInRight delay-0-2s">
+                <div className="why-choose-right style-two wow fadeInRight delay-0-2s">
                   <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
                      target="_blank">
                     <img
@@ -352,4 +352,81 @@ const AiServiceDetails = () => {
     </Layout>
   );
 };
+
+
+
+export const getStaticProps = async () => {
+  console.log(`Open Graph Test **** :-) `);
+
+  return {
+    props: {
+      pTitle: "Michael Logic™, The Azure Cloud Whisperer",
+      openGraphData: [
+        {
+          property: "og:image",
+          content:
+            "https://michaellogic.com/assets/images/prevu/ninjamode_story_prevu.jpg",
+          key: "ogimage",
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+          key: "ogimagewidth",
+        },
+        {
+          property: "og:image:height",
+          content: "600",
+          key: "ogimageheight",
+        },
+        {
+          property: "og:url",
+          content: `https://michaellogic.com`,
+          key: "ogurl",
+        },
+        {
+          property: "og:title",
+          content: "Michael Logic™, The Azure Cloud Whisperer",
+          key: "ogtitle",
+        },
+        {
+          property: "og:description",
+          content: "Engage The Azure Whisperer to grow your ROI in the cloud with AI.",
+          key: "ogdesc",
+        },
+        {
+          property: "og:type",
+          content: "website",
+          key: "website",
+        },
+        {
+          property: "twitter:card",
+          content: "summary_large_image",
+          key: "tcard",
+        },
+        {
+          property: "twitter:creator",
+          content: "@mikelogic",
+          key: "tcreator",
+        },
+        {
+          property: "twitter:title",
+          content: "Michael Logic™, The Azure Cloud Whisperer",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:description",
+          content: "Engage The Azure Whisperer to grow your ROI in the cloud with AI.",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:image",
+          content: "https://michaellogic.com/assets/images/prevu/ninjamode_story01_prevu.jpg",
+          key: "timg",
+        },
+      ],
+    },
+  };
+};
+
+
 export default AiServiceDetails;

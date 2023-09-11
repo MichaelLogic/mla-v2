@@ -28,7 +28,7 @@ const Story = () => {
       {/* Page Banner Section End */}
 
       {/* Services Page About Area start */}
-      <section className="service-page-about py-130 rpy-100 rel z-1">
+      <section className="service-page-about py-50 rel z-1">
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
@@ -76,28 +76,30 @@ const Story = () => {
       {/* About Us Area start */}
       <section className="about-area-five py-130 rpy-100 rel z-1">
         <div className="container container-1290">
-            <div className="col-lg-6">
-              <div className="about-content wow fadeInLeft delay-0-4s">
-                <p>
-                  Quest Digital Interactive (Alexandria, VA) hired Michael as a consultant 
-                  to provide assistance deriving claims of original systems and methods of 
-                  artificial intelligence with live drama media for an approved patent.
-                  This innovation was recognized and supported by 
-                  <a href="https://siliconangle.com/2016/10/25/how-to-watch-live-from-ibm-world-of-watson-wow16/" target="_blank">IBM Watson team </a>. 
-                  He also is the technical author of four other pending patents for artificial 
-                  intelligence and clean sustainable energy.     
-                </p>
+          <div className="row justify-content-between align-items-center">
+              <div className="col-lg-6">
+                <div className="about-content wow fadeInLeft delay-0-4s">
+                  <p>
+                    Quest Digital Interactive (Alexandria, VA) hired Michael as a consultant 
+                    to provide assistance deriving claims of original systems and methods of 
+                    artificial intelligence with live drama media for an approved patent.
+                    This innovation was recognized and supported by 
+                    <a href="https://siliconangle.com/2016/10/25/how-to-watch-live-from-ibm-world-of-watson-wow16/" target="_blank">IBM Watson team </a>. 
+                    He also is the technical author of four other pending patents for artificial 
+                    intelligence and clean sustainable energy.     
+                  </p>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="video-part style-three wow fadeInUp delay-0-2s row justify-content-center">
-              <img src="assets/images/video/push_button_theory_cvr.jpg" alt="Pr.George Davis, Quest Digital Interactive" />
-              <a
-                href="https://www.youtube.com/watch?v=Mp5Jftpjb6I"
-                className="mfp-iframe video-play"
-              >
-                <i className="fas fa-play" />
-              </a>
+            <div className="col-lg-6">
+              <div className="video-part style-three wow fadeInUp delay-0-2s row justify-content-center">
+                <img src="assets/images/video/qdi_george_davis_cvr.jpg" alt="Pr.George Davis, Quest Digital Interactive" />
+                <a
+                  href="https://www.youtube.com/watch?v=Mp5Jftpjb6I"
+                  className="mfp-iframe video-play"
+                >
+                  <i className="fas fa-play" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -189,6 +191,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
+      pTitle: "Michael Logic™, The Story",
       openGraphData: [
         {
           property: "og:image",
