@@ -5,6 +5,8 @@ import { Fragment, useEffect, useState } from "react";
 
 export default function App({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
+  const { openGraphData = [] } = pageProps;
+
   useEffect(() => {
     setTimeout(() => {
       setLoaded(true);
@@ -21,8 +23,14 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
+        {openGraphData.map((og) => (
+          <meta {...og} />
+        ))}
+
+        
         {/* Title */}
-        <title>Michael Logic™, Mr. Tech Dream Merchant</title>
+        <title>Michael Logic - Software Engineering • Data Science</title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"

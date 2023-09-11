@@ -20,7 +20,7 @@ const Footer5 = () => {
               <ul className="list-style-two">
                 <li>
                   <i className="far fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:support@michaellogic.com">support@michaellogic.com</a>
                 </li>
                 <li>
                   <i className="far fa-phone" />{" "}

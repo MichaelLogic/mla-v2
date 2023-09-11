@@ -8,7 +8,7 @@ const LinkPreview = ({ title, imageUrl, pageUrl, description }) => {
       {/* Update the title */}
       <title>{title}</title>
 
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={title}/>
       <meta property="og:image" content={imageUrl} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={pageUrl} />

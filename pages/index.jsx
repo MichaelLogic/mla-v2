@@ -1,6 +1,5 @@
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Layout from "@/src/layout/Layout";
-import LinkPreview from "@/src/components/LinkPreview";
 import { sliderProps } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
@@ -12,12 +11,6 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const index = () => {
   return (
     <Layout footer={5} header={5}>
-      <LinkPreview  
-          title={"Michael Logic™, Mr. Tech Dream Merchant"}
-          imageUrl={"https://michaellogic.com/assets/images/prevu/mikelogic_home01_prevu.jpg"}
-          pageUrl={"https://michaellogic.com"}
-          description={"Engage one of America's most innovative technologists."}
-      />
       <Home5Slider />
       {/* Slider Section End */}
 
@@ -501,7 +494,7 @@ const index = () => {
       {/* Video Area end */}
 
       {/* Work With Us Area start */}
-      <section className="work-with-us-area rel z-1">
+      <section className="work-with-us-area pt-60 rel z-1">
         <div className="container container-1290">
           <div className="row no-gap">
             <div className="col-xl-5 align-self-center">
@@ -533,7 +526,81 @@ const index = () => {
           </div>
         </div>
       </section>
+
     </Layout>
   );
 };
+
+
+
+export const getStaticProps = async () => {
+  return {
+    props: {
+      openGraphData: [
+        {
+          property: "og:image",
+          content:
+            "https://michaellogic.com/assets/images/prevu/mikelogic_home01_prevu.jpg",
+          key: "ogimage",
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+          key: "ogimagewidth",
+        },
+        {
+          property: "og:image:height",
+          content: "600",
+          key: "ogimageheight",
+        },
+        {
+          property: "og:url",
+          content: `https://michaellogic.com`,
+          key: "ogurl",
+        },
+        {
+          property: "og:title",
+          content: "Michael Logic™, Mr. Tech Dream Merchant",
+          key: "ogtitle",
+        },
+        {
+          property: "og:description",
+          content: "Engage one of America's most innovative technologists.",
+          key: "ogdesc",
+        },
+        {
+          property: "og:type",
+          content: "website",
+          key: "website",
+        },
+        {
+          property: "twitter:card",
+          content: "summary_large_image",
+          key: "tcard",
+        },
+        {
+          property: "twitter:creator",
+          content: "@mikelogic",
+          key: "tcreator",
+        },
+        {
+          property: "twitter:title",
+          content: "Michael Logic™, Mr. Tech Dream Merchant",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:description",
+          content: "Engage one of America's most innovative technologists.",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:image",
+          content: "https://michaellogic.com/assets/images/prevu/mikelogic_home01_prevu.jpg",
+          key: "timg",
+        },
+      ],
+    },
+  };
+};
+
 export default index;

@@ -182,4 +182,78 @@ const Story = () => {
     </Layout>
   );
 };
+
+
+export const getStaticProps = async () => {
+  console.log(`Open Graph Test **** :-) `);
+
+  return {
+    props: {
+      openGraphData: [
+        {
+          property: "og:image",
+          content:
+            "https://michaellogic.com/assets/images/prevu/ninjamode_story_prevu.jpg",
+          key: "ogimage",
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+          key: "ogimagewidth",
+        },
+        {
+          property: "og:image:height",
+          content: "600",
+          key: "ogimageheight",
+        },
+        {
+          property: "og:url",
+          content: `https://michaellogic.com`,
+          key: "ogurl",
+        },
+        {
+          property: "og:title",
+          content: "Michael Logic™, The Story",
+          key: "ogtitle",
+        },
+        {
+          property: "og:description",
+          content: "By any means necessary, Michael Logic gained innovative vision and decades of tech experience.",
+          key: "ogdesc",
+        },
+        {
+          property: "og:type",
+          content: "website",
+          key: "website",
+        },
+        {
+          property: "twitter:card",
+          content: "summary_large_image",
+          key: "tcard",
+        },
+        {
+          property: "twitter:creator",
+          content: "@mikelogic",
+          key: "tcreator",
+        },
+        {
+          property: "twitter:title",
+          content: "Michael Logic™, The Story",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:description",
+          content: "By any means necessary, Michael Logic gained innovative vision and decades of tech experience.",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:image",
+          content: "https://michaellogic.com/assets/images/prevu/ninjamode_story01_prevu.jpg",
+          key: "timg",
+        },
+      ],
+    },
+  };
+};
+
 export default Story;
