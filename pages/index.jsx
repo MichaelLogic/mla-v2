@@ -405,7 +405,7 @@ const index = () => {
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 col-lg-6">
-              <div className="about-five-images lmt-50 wow fadeInLeft delay-0-2s">
+              <div className="about-five-images mb-40 lmt-50 wow fadeInLeft delay-0-2s">
                 <img
                     src="assets/images/logic/incompetentstaff_web.jpg"
                     alt="PushinKeys: Talent Pipeline Challenge cover"
@@ -414,7 +414,7 @@ const index = () => {
             </div>
             <div className="col-lg-6">
               <div className="about-content-five">
-                <div className="section-title mb-40 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-50 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">Talent Poster Child</span>
                   <h2>
                       Is the target workforce The Biden-Harris Administration 

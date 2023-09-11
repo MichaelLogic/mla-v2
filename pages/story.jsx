@@ -143,7 +143,7 @@ const Story = () => {
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 col-lg-6">
-              <div className="about-five-images lmt-50 wow fadeInLeft delay-0-2s">
+              <div className="about-five-images mb-50 lmt-50 wow fadeInLeft delay-0-2s">
                 <img
                     src="assets/images/logic/pushinkeys_challenge_cvr_web.jpg"
                     alt="PushinKeys: Talent Pipeline Challenge cover"

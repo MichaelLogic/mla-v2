@@ -206,7 +206,7 @@ const AiServiceDetails = () => {
             </div>
             <div className="col-xl-6">
               <div className="row justify-content-between align-items-center">
-                <div className="why-choose-right style-two wow fadeInRight delay-0-2s">
+                <div className="why-choose-right lmt-50 style-two wow fadeInRight delay-0-2s">
                   <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
                      target="_blank">
                     <img

@@ -9,15 +9,6 @@ const Header5 = ({ singleMenu }) => {
         <div className="container container-1620">
           <div className="row align-items-center">
             <div className="col-lg-7">
-              // <ul className="top-left">
-              //   <li>
-              //     <i className="far fa-map-marker-alt" /> 5500 South Shore Dr,
-              //     Chicago, IL
-              //   </li>
-              //   <li>
-              //     <i className="far fa-clock" /> Monday - Friday, 8am - 6pm
-              //   </li>
-              // </ul>
             </div>
             <div className="col-lg-5">
               <div className="top-right">
@@ -67,15 +58,9 @@ const Header5 = ({ singleMenu }) => {
               <Nav singleMenu={singleMenu} />
               {/* Main Menu End*/}
             </div>
-            
-            {/* Nav Search */}
-            {/*<NavSearch />*/}
 
             {/* Menu Button */}
             <div className="menu-btns">
-              // <button>
-              //   <i className="far fa-shopping-basket" />
-              // </button>
               <div className="call-anytime">
                 <div className="icon">
                   <i className="fas fa-comments-alt" />
