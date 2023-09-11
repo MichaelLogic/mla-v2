@@ -17,7 +17,7 @@ const LinkPreview = ({ title, imageUrl, pageUrl, description }) => {
       <meta name="twitter:site" content="https://twitter.com/mikelogic" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={meta.imageUrl} />
+      <meta name="twitter:image" content={imageUrl} />
   </Head>
   );
 };

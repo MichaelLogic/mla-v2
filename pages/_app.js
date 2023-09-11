@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/* Title */}
-        <title>Ygency - Web Agency React NextJS Template</title>
+        <title>Michael Logic™, Mr. Tech Dream Merchant</title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"
