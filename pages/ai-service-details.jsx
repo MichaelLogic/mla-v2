@@ -54,10 +54,10 @@ const AiServiceDetails = () => {
 
       {/* Services Page About Area start */}
       <section className="service-page-about py-130 rpy-100 rel z-1">
-        <div className="container">
-          <div className="row gap-90 align-items-center">
+        <div className="container container-1290">
+          <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
-              <div className="service-about-image rmb-55 wow fadeInUp delay-0-2s">
+              <div className="service-about-image rmb-55 wow fadeInLeft delay-0-2s">
                 <img
                   src="assets/images/about/azure_whisperer_ml03_web.jpg"
                   alt="About"
@@ -65,27 +65,25 @@ const AiServiceDetails = () => {
               </div>
             </div>
             <div className="col-xl-5 col-lg-6 mx-xl-auto">
-              <div className="about-content wow fadeInUp delay-0-4s">
+              <div className="about-content wow fadeInRight delay-0-4s">
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">Limited Client Offer</span>
                   <h2>Michael Logic™, Microsoft™ & OpenAI™ </h2>
                 </div>
-                <div className="content">
-                  <p>
-                    Good AI engineers know how to create artificial intelligence.  
-                    Yet the Azure Whisperer knows <i>what</i> create to help you gain an unfair advantage.     
-                  </p>
-                  <ul className="list-style-three pt-15 pb-25">
-                    <li>Breakup Homogenous Thought</li>
-                    <li>Translate Business Desires into Proprietary Algorithms</li>
-                    <li>Implement DevOps for AI Engineering Team</li>
-                  </ul>
-                  {/*<Link legacyBehavior href="/about">
-                    <a className="read-more mt-10 color-primary">
-                      Learn More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>*/}
-                </div>
+                <p>
+                  Good AI engineers know how to create artificial intelligence.  
+                  Yet the Azure Whisperer knows <i>what</i> create to help you gain an unfair advantage.     
+                </p>
+                <ul className="list-style-three pt-15 pb-25">
+                  <li>Breakup Homogenous Thought</li>
+                  <li>Translate Business Desires into Proprietary Algorithms</li>
+                  <li>Implement DevOps for AI Engineering Team</li>
+                </ul>
+                {/*<Link legacyBehavior href="/about">
+                  <a className="read-more mt-10 color-primary">
+                    Learn More <i className="far fa-arrow-right" />
+                  </a>
+                </Link>*/}
               </div>
             </div>
           </div>
@@ -189,11 +187,11 @@ const AiServiceDetails = () => {
       
       {/* Why Choose Us start */}
       <section className="why-choose-area pt-100 rpt-70 rel z-1">
-        <div className="container">
-          <div className="row align-items-center">
+        <div className="container container-1290">
+          <div className="row justify-content-between align-items-center">
             <div className="col-xl-6 col-lg-8">
               <div className="why-choose-us-content">
-                <div className="section-title mb-60 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-60 wow fadeInLeft delay-0-2s">
                   <span className="sub-title mb-15">Client Testimonial</span>
                   <h2>BH Engineering Creates Innovative RegTech with Azure™ & OpenAI™</h2>
                 </div>
@@ -207,7 +205,7 @@ const AiServiceDetails = () => {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="why-choose-right style-two wow fadeInLeft delay-0-2s">
+              <div className="why-choose-right style-two wow fadeInRight delay-0-2s">
                 <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
                    target="_blank">
                   <img
@@ -223,7 +221,7 @@ const AiServiceDetails = () => {
       {/* Why Choose Us end */}
       {/* FAQ's Area start */}
       <section className="faq-area pt-130 rpt-95 pb-105 rpb-75 rel z-1">
-        <div className="container">
+        <div className="container container-1290">
           <div className="row align-items-center">
             <div className="container">
               <div className="faq-content-part wow fadeInRight delay-0-2s">
@@ -280,7 +278,7 @@ const AiServiceDetails = () => {
                     <h5>Problem Formulation Package</h5>
                     <span className="price-text">
                       <span className="before">$</span>
-                      <span className="price">3,999.00</span>{" "}
+                      <span className="price">5,999.00</span>{" "}
                       <span className="after">/per company</span>
                     </span>
                   </div>
@@ -291,13 +289,13 @@ const AiServiceDetails = () => {
                   <li>Cloud Platform Prescription</li>
                   <li>Copyright-able Technical Nomenclature</li>
                   <li>SEO Optimizations</li>
-                  <li>Customs Services</li>
+                  <li>AI Growth Plan</li>
                 </ul>
-                <Link legacyBehavior href="/pricing">
+                {/*<Link legacyBehavior href="/pricing">
                   <a className="theme-btn w-100">
                     Engage Now <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link>*/}
               </div>
             </div>
             <div className="col-lg-6">
@@ -317,16 +315,16 @@ const AiServiceDetails = () => {
                     <h5>Build & Grow Package</h5>
                     <span className="price-text">
                       <span className="before">$</span>
-                      <span className="price">130.00</span>{" "}
+                      <span className="price">230.00</span>{" "}
                       <span className="after">/per hr.</span>
                     </span>
-                    <span className="price-text">
+                    <span>
                       $10k Deposit Required
                     </span>
                   </div>
                 </div>
                 <ul className="list-style-one two-column">
-                  <li><i>Problem Formulation Session</i></li>
+                  <li><i>AI Problem Formulation</i></li>
                   <li>Network Configuration</li>
                   <li>Data ETL Ops</li>
                   <li>Dev Team Ops</li>
@@ -334,11 +332,11 @@ const AiServiceDetails = () => {
                   <li>Algorithm Training</li>
                   <li>CI/CD</li>
                 </ul>
-                <Link legacyBehavior href="/pricing">
+                {/*<Link legacyBehavior href="/pricing">
                   <a className="theme-btn w-100">
                     Engage Now <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link>*/}
               </div>
             </div>
           </div>

@@ -108,7 +108,7 @@ const DashPing = () => {
             <div className="col-lg-6">
               <div className="container-fluid">
                 <div className="video-part style-two wow fadeInUp delay-0-2s">
-                  <img src="assets/images/video/dashping_maya_cover.jpg" alt="Freight Bots: Maya is About That Life Video" />
+                  <img src="assets/images/video/dashping_maya_cvr.jpg" alt="Freight Bots: Maya is About That Life Video" />
                   <a
                     href="https://www.youtube.com/watch?v=Ux8h1qru8w4"
                     className="mfp-iframe video-play"
@@ -154,7 +154,7 @@ const DashPing = () => {
                   special challenge instances when new major versions of Freight Bots are released.
                 </p>
 
-                <div className="container-fluid">
+                <div className="container-fluid mb-30">
                   <div className="video-part style-two wow fadeInUp delay-0-2s">
                     <img src="assets/images/video/v3_cvr.jpg" alt="Freight Bots Benchmark Challenge Video" />
                     <a

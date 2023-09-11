@@ -27,8 +27,10 @@ const DefaultHeader = ({ singleMenu }) => {
               <Nav singleMenu={singleMenu} />
               {/* Main Menu End*/}
             </div>
+
             {/* Nav Search */}
-            <NavSearch />
+            {/* <NavSearch /> */}
+            
             {/* Menu Button */}
             <div className="menu-btns">
               {/* menu sidbar */}

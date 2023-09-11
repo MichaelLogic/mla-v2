@@ -1,16 +1,26 @@
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Layout from "@/src/layout/Layout";
+import LinkPreview from "@/src/layout/LinkPreview";
 import { sliderProps } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { usePreview } from 'next/preview';
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
 const index = () => {
+  const { isPreviewMode } = usePreview();
+
   return (
     <Layout footer={5} header={5}>
+      {isPreviewMode && <LinkPreview  
+          title={"Michael Logic™, Mr. Tech Dream Merchant"}
+          imageUrl={"https://michaellogic.com/assets/images/prevu/mikelogic_home01_prevu.jpg"}
+          pageUrl={"https://michaellogic.com"}
+          description={"Engage one of America's most innovative technologists."}
+      />}
       <Home5Slider />
       {/* Slider Section End */}
 
@@ -405,7 +415,7 @@ const index = () => {
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 col-lg-6">
-              <div className="about-five-images rmt-50 wow fadeInLeft delay-0-2s">
+              <div className="about-five-images lmt-50 wow fadeInLeft delay-0-2s">
                 <img
                     src="assets/images/logic/incompetentstaff_web.jpg"
                     alt="PushinKeys: Talent Pipeline Challenge cover"

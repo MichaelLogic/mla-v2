@@ -36,7 +36,7 @@ const DaskTopMenu = () => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link legacyBehavior href="projects">
+        <Link legacyBehavior href="dashping">
           Projects
         </Link>
       </li>

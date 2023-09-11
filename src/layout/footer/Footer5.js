@@ -65,13 +65,13 @@ const Footer5 = () => {
                     <a href="index.html">Home</a>
                   </li>
                   <li>
-                    <a href="story.html">Story</a>
+                    <a href="story">Story</a>
                   </li>
                   <li>
-                    <a href="ai-services-detail">AI Services</a>
+                    <a href="ai-service-details">AI Services</a>
                   </li>
                   <li>
-                    <a href="projects">Projects</a>
+                    <a href="dasphing">Projects</a>
                   </li>
                 </ul>
               </div>
