@@ -3,7 +3,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
-const ServiceDetails = () => {
+const AiServiceDetails = () => {
   const accordionData = [
     { 
       id: 1, 
@@ -28,7 +28,7 @@ const ServiceDetails = () => {
   ];
   const [active, setActive] = useState("collapse0");
   return (
-    <Layout>
+    <Layout  footer={5}>
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-25 rel z-1"
@@ -59,27 +59,9 @@ const ServiceDetails = () => {
             <div className="col-lg-6">
               <div className="service-about-image rmb-55 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/about/service-page-about.jpg"
+                  src="assets/images/about/azure_whisperer_ml03_web.jpg"
                   alt="About"
                 />
-                <div
-                  className="service-about-box bgc-primary"
-                  style={{
-                    backgroundImage:
-                      "url(assets/images/shapes/work-step-bg.png)",
-                  }}
-                >
-                  <Link legacyBehavior href="/service-details">
-                    <a className="read-more">
-                      <i className="fal fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Web Solutions Research and Idea Generate</a>
-                    </Link>
-                  </h3>
-                </div>
               </div>
             </div>
             <div className="col-xl-5 col-lg-6 mx-xl-auto">
@@ -193,7 +175,7 @@ const ServiceDetails = () => {
       <div className="video-area-two rel z-1">
         <div className="container-fluid">
           <div className="video-part style-two wow fadeInUp delay-0-2s">
-            <img src="assets/images/video/video-two-bg.jpg" alt="Michael Logic Explains AI with Fried Chicken Wings" />
+            <img src="assets/images/video/ai_n_chicken_cvr.jpg" alt="Michael Logic Explains AI with Fried Chicken Wings" />
             <a
               href="https://www.youtube.com/watch?v=W1LMNpCidwQ"
               className="mfp-iframe video-play"
@@ -216,28 +198,23 @@ const ServiceDetails = () => {
                   <h2>BH Engineering Creates Innovative RegTech with Azure™ & OpenAI™</h2>
                 </div>
                 <div className="row gap-60">
-                  <Link legacyBehavior href="/audittech">
-                    <a className="read-more mt-10 color-primary">
-                      Read Full Testimonial <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
+                  <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf" 
+                     className="read-more mt-10 mb-50 color-primary"
+                     target="_blank">
+                    Read Full Testimonial <i className="far fa-arrow-right" />
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-xl-6">
               <div className="why-choose-right style-two wow fadeInLeft delay-0-2s">
-                <img
-                  src="assets/images/about/azure_whisperer_ml02_story_web.jpg"
-                  alt="Why Choose Right"
-                />
-                <div className="why-choose-border-shape" />
-                <div className="text-shape">
+                <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
+                   target="_blank">
                   <img
-                    className="text"
-                    src="assets/images/services/lor_bh_engineering_thum.jpg"
-                    alt="Web Design Text"
+                    src="assets/images/about/lor_bh_engineering_thum.jpg"
+                    alt="Letter of Recommendation - BH Engineering for AuditTech™"
                   />
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -261,6 +238,7 @@ const ServiceDetails = () => {
                 >
                   {accordionData.map((data, i) => (
                     <YgencyAccordion
+                      answer={data.answer}
                       title={data.title}
                       key={data.id}
                       event={`collapse${i}`}
@@ -373,4 +351,4 @@ const ServiceDetails = () => {
     </Layout>
   );
 };
-export default ServiceDetails;
+export default AiServiceDetails;

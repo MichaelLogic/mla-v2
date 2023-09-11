@@ -100,7 +100,7 @@ export default class Home5Slider extends Component {
             >
               <div className="container">
                 <div className="slide-content">
-                  <span className="sub-title">Catch Michael Logic™ ... </span>
+                  <span className="sub-title pt-100">Catch Michael Logic™ ... </span>
                   <h2>
                     <span>a wizard for</span>
                     <br /> adding AI to grow your business!
@@ -127,8 +127,8 @@ export default class Home5Slider extends Component {
             >
               <div className="container">
                 <div className="slide-content">
-                  <span className="sub-title">Catch Michael Logic™ ... </span>
-                  <h2 className="d-none d-lg-block">
+                  <span className="sub-title pt-100">Catch Michael Logic™ ... </span>
+                  <h2>
                     <span>a wizard for </span>
                     <br /> implementing enterprise DevOps!
                   </h2>

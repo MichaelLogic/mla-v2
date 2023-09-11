@@ -26,55 +26,19 @@ const DaskTopMenu = () => {
         </Link>
       </li>
       <li>
-        <Link legacyBehavior href="about">
+        <Link legacyBehavior href="story">
           The Story
         </Link>
       </li>
       <li className="dropdown">
-        <a href="#">Services</a>
-        <ul>
-          <li>
-            <Link legacyBehavior href="services">
-              Our Services
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="service-details">
-              Service Details One
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="service-details2">
-              Service Details Two
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn">
-          <span className="far fa-plus" />
-        </div>
+        <Link legacyBehavior href="ai-service-details">
+          AI Services
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="#">Projects</a>
-        <ul>
-          <li>
-            <Link legacyBehavior href="projects">
-              Project Grid
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="project-list">
-              Project List
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="project-details">
-              Project Details
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn">
-          <span className="far fa-plus" />
-        </div>
+        <Link legacyBehavior href="projects">
+          Projects
+        </Link>
       </li>
       
     </ul>
@@ -100,55 +64,19 @@ const MobileMenu = () => {
         </Link>
       </li>
       <li>
-        <Link legacyBehavior href="about">
+        <Link legacyBehavior href="story">
           The Story
         </Link>
       </li>
       <li className="dropdown">
-        <a href="#">Services</a>
-        <ul style={activeLi("Services")}>
-          <li>
-            <Link legacyBehavior href="services">
-              Our Services
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="service-details">
-              Service Details One
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="service-details2">
-              Service Details Two
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("Services")}>
-          <span className="far fa-plus" />
-        </div>
+        <Link legacyBehavior href="ai-service-details">
+          AI Services
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="#">Projects</a>
-        <ul style={activeLi("Projects")}>
-          <li>
-            <Link legacyBehavior href="projects">
-              Project Grid
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="project-list">
-              Project List
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="project-details">
-              Project Details
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("Projects")}>
-          <span className="far fa-plus" />
-        </div>
+        <Link legacyBehavior href="projects">
+          Projects
+        </Link>
       </li>
 
     </ul>

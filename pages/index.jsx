@@ -237,7 +237,7 @@ const index = () => {
               <div className="we-provide-item wow fadeInUp delay-0-2s">
                 <span className="serial-number">CODE</span>
                 <h3>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/ai-service-details">
                     <a>
                       Full Stack <span>Engineering</span>
                     </a>
@@ -248,37 +248,37 @@ const index = () => {
                   system on a deadline that would terrify normal employees? 
                 </p>
                 <div className="tags">
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Python
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Java
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Javascript
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     C#
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Go
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Ruby
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Node.js
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Django
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Spring Boot
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     React.js/Next.js
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Angular
                   </Link>
                 </div>
@@ -288,7 +288,7 @@ const index = () => {
               <div className="we-provide-item wow fadeInUp delay-0-4s">
                 <span className="serial-number">DATA</span>
                 <h3>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/ai-service-details">
                     <a>
                       Data Science &amp; <span>Architecture</span>
                     </a>
@@ -299,25 +299,25 @@ const index = () => {
                   can be used to increase your bottom line revenue and success rate?
                 </p>
                 <div className="tags">
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     SQL / NoSQL
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Key Pair Solutions
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Pandas
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Power BI
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Jupyter
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Hadoop
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Spark
                   </Link>
                 </div>
@@ -327,7 +327,7 @@ const index = () => {
               <div className="we-provide-item wow fadeInUp delay-0-6s">
                 <span className="serial-number">AI</span>
                 <h3>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/ai-service-details">
                     <a>
                       AI &amp; Machine <span>Learning</span>
                     </a>
@@ -338,25 +338,25 @@ const index = () => {
                   Or do you need a visionary with the technical ability to customize an AI solution formulated specifically for your business goals?
                 </p>
                 <div className="tags">
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     scikit-learn
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     NumPy
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     OpenAI
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     TensorFlow
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     PyTorch
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Natural Language Kit
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Azure AI Studio
                   </Link>
                 </div>
@@ -366,7 +366,7 @@ const index = () => {
               <div className="we-provide-item wow fadeInUp delay-0-6s">
                 <span className="serial-number">DevOps</span>
                 <h3>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/ai-service-details">
                     <a>
                       Developer Operations &amp; <span>CI/CD</span>
                     </a>
@@ -377,19 +377,19 @@ const index = () => {
                   in impressive harmony like a well tuned orchestra?
                 </p>
                 <div className="tags">
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Deployment Automation
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Continuous Integration
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Continous Delivery
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Infrastructure as Code (IaC)
                   </Link>
-                  <Link legacyBehavior href="/services">
+                  <Link legacyBehavior href="/ai-service-details">
                     Azure DevOps
                   </Link>
                 </div>
@@ -416,10 +416,15 @@ const index = () => {
               <div className="about-content-five">
                 <div className="section-title mb-40 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">Talent Poster Child</span>
-                  <h2>Is the target workforce The Biden-Harris Administration Talent Pipeline Challenge?</h2>
+                  <h2>
+                      Is the target workforce The Biden-Harris Administration 
+                      Talent Pipeline Challenge?
+                  </h2>
                 </div>
                 <p>
-                  <b>"Pushin Keys"</b>: <i>an urban phrase that creates a double entrendre when applied to software engineering; Michael uses it to attract more youth to the tech lifestyle.</i>
+                  <b>"Pushin Keys"</b>: <i>an urban phrase that creates a double entrendre 
+                  when applied to software engineering; Michael uses it to attract more youth 
+                  to the tech lifestyle.</i>
                 </p>
                 <div className="authors-text mt-45 pt-50">
                   <img src="assets/images/about/author1.jpg" alt="Author" />
@@ -432,7 +437,7 @@ const index = () => {
                   </span>
                 </div>
                 <div className="mt-30">
-                  <a href="/talent" className="theme-btn style-two">
+                  <a href="/story" className="theme-btn style-two">
                     Learn More <i className="far fa-arrow-right" />
                   </a>
                 </div>
@@ -494,7 +499,7 @@ const index = () => {
           <div className="row no-gap">
             <div className="col-xl-5 align-self-center">
               <div className="work-with-image wow fadeInUp delay-0-2s">
-                <img src="assets/images/about/azure_whisperer_ml01.jpg" alt="About" />
+                <img src="assets/images/about/azure_whisperer_ml01_web.jpg" alt="About" />
               </div>
             </div>
             <div className="col-xl-7 wow fadeInUp delay-0-4s">
@@ -502,7 +507,7 @@ const index = () => {
                 className="work-with-content"
                 style={{
                   backgroundImage:
-                    "url(assets/images/about/azure_whisperer_ml01.jpg)",
+                    "url(assets/images/about/work-with-us-bg.jpg)",
                 }}
               >
                 <div className="section-title mb-10">
@@ -513,7 +518,7 @@ const index = () => {
                   Michael Logic is opening up his Microsoft Azure Whisperer trick bag for qualified companies
                   that want to grow a proprietary advantage over their competition.
                 </p>
-                <Link href="contact" className="theme-btn mt-15">
+                <Link href="ai-service-details" className="theme-btn mt-15">
                   Let’s Innovate <i className="far fa-arrow-right" />
                 </Link>
               </div>
