@@ -1,26 +1,23 @@
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Layout from "@/src/layout/Layout";
-import LinkPreview from "@/src/layout/LinkPreview";
+import LinkPreview from "@/src/componnents/layout/LinkPreview";
 import { sliderProps } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { usePreview } from 'next/preview';
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
 const index = () => {
-  const { isPreviewMode } = usePreview();
-
   return (
     <Layout footer={5} header={5}>
-      {isPreviewMode && <LinkPreview  
+      <LinkPreview  
           title={"Michael Logic™, Mr. Tech Dream Merchant"}
           imageUrl={"https://michaellogic.com/assets/images/prevu/mikelogic_home01_prevu.jpg"}
           pageUrl={"https://michaellogic.com"}
           description={"Engage one of America's most innovative technologists."}
-      />}
+      />
       <Home5Slider />
       {/* Slider Section End */}
 
