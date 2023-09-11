@@ -84,7 +84,7 @@ const Story = () => {
                     to provide assistance deriving claims of original systems and methods of 
                     artificial intelligence with live drama media for an approved patent.
                     This innovation was recognized and supported by 
-                    <a href="https://siliconangle.com/2016/10/25/how-to-watch-live-from-ibm-world-of-watson-wow16/" target="_blank">IBM Watson team </a>. 
+                    <a href="https://siliconangle.com/2016/10/25/how-to-watch-live-from-ibm-world-of-watson-wow16/" target="_blank"> IBM Watson team</a>. 
                     He also is the technical author of four other pending patents for artificial 
                     intelligence and clean sustainable energy.     
                   </p>

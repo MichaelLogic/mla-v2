@@ -30,7 +30,7 @@ const index = () => {
           <div className="client-logo-wrap">
             <Link
               className="client-logo-item wow fadeInUp delay-0-2s"
-              href="contact"
+              href="ai-service-details"
             >
               <img className="rounded-circle"
                 src="assets/images/client-logos/abilify_logo_sm.jpg"
@@ -39,7 +39,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-3s"
-              href="contact"
+              href="ai-service-details"
             >
               <img className="rounded-circle"
                 src="assets/images/client-logos/beamglobal_logo_sm.jpg"
@@ -48,7 +48,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-4s"
-              href="contact"
+              href="ai-service-details"
             >
               <img className="rounded-circle"
                 src="assets/images/client-logos/buona_logo_sm.jpg"
@@ -57,7 +57,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-5s"
-              href="contact"
+              href="ai-service-details"
             >
               <img className="rounded-circle"
                 src="assets/images/client-logos/shaker_logo_sm.jpg"
@@ -66,7 +66,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-6s"
-              href="contact"
+              href="ai-service-details"
             >
               <img  className="rounded-circle"
                 src="assets/images/client-logos/davidtutera_logo_sm.jpg"
@@ -75,7 +75,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-7s"
-              href="contact"
+              href="ai-service-details"
             >
               <img  className="rounded-circle"
                 src="assets/images/client-logos/infiniti_logo_sm.jpg"
@@ -84,7 +84,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-7s"
-              href="contact"
+              href="ai-service-details"
             >
               <img  className="rounded-circle"
                 src="assets/images/client-logos/mcdonalds_logo_sm.jpg"
@@ -93,7 +93,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-7s"
-              href="contact"
+              href="ai-service-details"
             >
               <img  className="rounded-circle"
                 src="assets/images/client-logos/planters_logo_sm.jpg"
@@ -102,7 +102,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-7s"
-              href="contact"
+              href="ai-service-details"
             >
               <img  className="rounded-circle"
                 src="assets/images/client-logos/skinnygirl_logo_sm.jpg"
@@ -111,7 +111,7 @@ const index = () => {
             </Link>
             <Link
               className="client-logo-item wow fadeInUp delay-0-7s"
-              href="contact"
+              href="ai-service-details"
             >
               <img  className="rounded-circle"
                 src="assets/images/client-logos/wellsfargo_logo_sm.jpg"
