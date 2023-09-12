@@ -356,7 +356,6 @@ const AiServiceDetails = () => {
 
 
 export const getStaticProps = async () => {
-  console.log(`Open Graph Test **** :-) `);
 
   return {
     props: {
@@ -380,7 +379,7 @@ export const getStaticProps = async () => {
         },
         {
           property: "og:url",
-          content: `https://michaellogic.com`,
+          content: `https://michaellogic.com/ai-service-details`,
           key: "ogurl",
         },
         {

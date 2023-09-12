@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -12,8 +12,8 @@ const Footer5 = () => {
 
     emailjs.sendForm('service_beg069q', 'template_b053yhm', form.current, '8vE2N1NtKxkAdgdqn')
       .then((result) => {
-          console.log(result.text);
-          toast(result.text);
+          //console.log(result.text);
+          toast("Thank you! We will keep you informed.");
           document.getElementById("eBlastForm").reset();
       }, (error) => {
           console.log(error.text);
@@ -63,6 +63,7 @@ const Footer5 = () => {
                 </button>
               </form>
             </div>
+
             <ToastContainer />
 
           </div>

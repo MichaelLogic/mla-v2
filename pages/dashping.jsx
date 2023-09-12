@@ -231,4 +231,81 @@ const DashPing = () => {
     </Layout>
   );
 };
+
+
+
+export const getStaticProps = async () => {
+
+  return {
+    props: {
+      pTitle: "ML Projects: Freight Bots™ by DashPing",
+      openGraphData: [
+        {
+          property: "og:image",
+          content:
+            "https://michaellogic.com/assets/images/prevu/dashping_founders_prevu.jpg",
+          key: "ogimage",
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+          key: "ogimagewidth",
+        },
+        {
+          property: "og:image:height",
+          content: "677",
+          key: "ogimageheight",
+        },
+        {
+          property: "og:url",
+          content: `https://michaellogic.com/dashping`,
+          key: "ogurl",
+        },
+        {
+          property: "og:title",
+          content: "ML Projects: Freight Bots™ by DashPing",
+          key: "ogtitle",
+        },
+        {
+          property: "og:description",
+          content: "Logic and Schreiber prove an industry-wide solution to a national supply chain issue.",
+          key: "ogdesc",
+        },
+        {
+          property: "og:type",
+          content: "website",
+          key: "website",
+        },
+        {
+          property: "twitter:card",
+          content: "summary_large_image",
+          key: "tcard",
+        },
+        {
+          property: "twitter:creator",
+          content: "@mikelogic",
+          key: "tcreator",
+        },
+        {
+          property: "twitter:title",
+          content: "ML Projects: Freight Bots™ by DashPing",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:description",
+          content: "Logic and Schreiber prove an industry-wide solution to a national supply chain issue.",
+          key: "ttitle",
+        },
+        {
+          property: "twitter:image",
+          content: "https://michaellogic.com/assets/images/prevu/dashping_founders_prevu.jpg",
+          key: "timg",
+        },
+      ],
+    },
+  };
+};
+
+
+
 export default DashPing;
