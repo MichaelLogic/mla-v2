@@ -1,4 +1,25 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Footer5 = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_beg069q', 'template_b053yhm', form.current, '8vE2N1NtKxkAdgdqn')
+      .then((result) => {
+          console.log(result.text);
+          toast(result.text);
+      }, (error) => {
+          console.log(error.text);
+          toast("Uh oh! Email not submitted. Try Again.");
+      });
+  };
+
   return (
     <footer className="main-footer footer-five pt-100">
       <div className="container container-1290 pb-40">
@@ -34,8 +55,8 @@ const Footer5 = () => {
               <div className="policy">
                 Want to stay updated on Michael's journey?
               </div>
-              <form className="footer-newsletter" action="#">
-                <input type="email" placeholder="Email Address" required />
+              <form className="footer-newsletter"  ref={form} onSubmit={sendEmail}>
+                <input type="email" name="nu_email" placeholder="Email Address" required />
                 <button type="submit">
                   <i className="fas fa-arrow-right" />
                 </button>
@@ -76,6 +97,7 @@ const Footer5 = () => {
           </div>
         </div>
       </div>
+
     </footer>
   );
 };
