@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -6,7 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Footer5 = () => {
   const form = useRef();
-  const [submitted, setSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -15,6 +14,7 @@ const Footer5 = () => {
       .then((result) => {
           console.log(result.text);
           toast(result.text);
+          document.getElementById("eBlastForm").reset();
       }, (error) => {
           console.log(error.text);
           toast("Uh oh! Email not submitted. Try Again");
@@ -53,19 +53,15 @@ const Footer5 = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="footer-widget newsletter-widget wow fadeInUp delay-0-6s">
-              {submitted ? (
-                <p>Thank you !</p>
-              ) : (
-                  <div className="policy">
-                    Want to stay updated on Michael's journey?
-                  </div>
-                  <form className="footer-newsletter"  ref={form} onSubmit={sendEmail}>
-                    <input type="email" name="nu_email" placeholder="Email Address" required />
-                    <button type="submit">
-                      <i className="fas fa-arrow-right" />
-                    </button>
-                  </form>
-                )}
+              <div className="policy">
+                Want to stay updated on Michael's journey?
+              </div>
+              <form id="eBlastForm" className="footer-newsletter"  ref={form} onSubmit={sendEmail}>
+                <input type="email" name="nu_email" placeholder="Email Address" required />
+                <button type="submit">
+                  <i className="fas fa-arrow-right" />
+                </button>
+              </form>
             </div>
             <ToastContainer />
 
