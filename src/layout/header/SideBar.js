@@ -30,7 +30,7 @@ const SideBar = () => {
             <span className="fa fa-times" />
           </div>
           <div className="title">
-            <h4>Get Appointment</h4>
+            <h4>Engage Michael Logic™</h4>
           </div>
           {/*Engage Michael Logic™*/}
           <div className="appointment-form">
