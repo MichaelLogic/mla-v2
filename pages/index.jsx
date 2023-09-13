@@ -417,7 +417,7 @@ const index = () => {
                 <div className="section-title mb-50 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">Talent Poster Child</span>
                   <h2>
-                      Is the target workforce The Biden-Harris Administration 
+                      Is the target workforce unaware of The Biden-Harris Administration 
                       Talent Pipeline Challenge?
                   </h2>
                 </div>
