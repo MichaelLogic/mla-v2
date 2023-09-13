@@ -21,14 +21,14 @@ const E404 = () => {
                   </a>
                 </Link>
                 <div className="social-style-four d-flex mt-60 rmt-35">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" /> <span>Facebook</span>
+                  <a href="https://www.linkedin.com/in/michaellogic/">
+                    <i className="fab fa-linkedin" /> <span>LinkedIn</span>
                   </a>
-                  <a href="#">
+                  <a href="https://twitter.com/MikeLogic">
                     <i className="fab fa-twitter" /> <span>Twitter</span>
                   </a>
-                  <a href="#">
-                    <i className="fab fa-dribbble" /> <span>Dribbble</span>
+                  <a href="https://www.instagram.com/michaellogic/">
+                    <i className="fab fa-instagram" /> <span>Dribbble</span>
                   </a>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const E404 = () => {
             <div className="col-lg-7">
               <div className="error-image wow zoomIn delay-0-2s">
                 <img
-                  src="assets/images/background/404-error.png"
+                  src="assets/images/bg/404_error.png"
                   alt="404 Error"
                 />
               </div>

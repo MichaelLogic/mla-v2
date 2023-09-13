@@ -13,7 +13,7 @@ const AiServiceDetails = () => {
     { 
       id: 2, 
       title: "What is the cost of The Azure Whisperer Problem Formulation Session ?", 
-      answer: "The Problem Formulation Session is a one time cost of $3,999.00 per company." 
+      answer: "The Problem Formulation Session is a one time cost of $5,999.00 per company." 
     },
     { 
       id: 3, 
