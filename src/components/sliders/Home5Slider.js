@@ -44,10 +44,10 @@ export default class Home5Slider extends Component {
                     <br /> adding AI to grow your business!
                   </h2>
                   <hr />
-                  <div className="ratting-btns menu-sidebar">
-                    <button className="theme-btn style-two">
+                  <div className="ratting-btns">
+                    <a href="ai-service-details" className="theme-btn style-two">
                       Make a Wish Now <i className="far fa-arrow-right" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -71,10 +71,10 @@ export default class Home5Slider extends Component {
                     <br /> implementing enterprise DevOps!
                   </h2>
                   <hr />
-                  <div className="ratting-btns menu-sidebar">
-                    <button className="theme-btn style-two">
+                  <div className="ratting-btns">
+                    <a href="ai-service-details" className="theme-btn style-two">
                       Make a Wish Now <i className="far fa-arrow-right" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -106,10 +106,10 @@ export default class Home5Slider extends Component {
                     <br /> adding AI to grow your business!
                   </h2>
                   <hr />
-                  <div className="ratting-btns menu-sidebar">
-                    <button className="theme-btn style-two">
+                  <div className="ratting-btns">
+                    <a href="ai-service-details" className="theme-btn style-two">
                       Make a Wish Now <i className="far fa-arrow-right" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -133,10 +133,10 @@ export default class Home5Slider extends Component {
                     <br /> implementing enterprise DevOps!
                   </h2>
                   <hr />
-                  <div className="ratting-btns menu-sidebar">
-                    <button className="theme-btn style-two">
+                  <div className="ratting-btns">
+                    <a href="ai-service-details" className="theme-btn style-two">
                       Make a Wish Now <i className="far fa-arrow-right" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
