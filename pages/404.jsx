@@ -2,7 +2,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const E404 = () => {
   return (
-    <Layout>
+    <Layout footer={5}>
       <section
         className="error-section pt-220 rpt-120 pb-100 rpb-80 rel z-1"
         style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
@@ -28,7 +28,7 @@ const E404 = () => {
                     <i className="fab fa-twitter" /> <span>Twitter</span>
                   </a>
                   <a href="https://www.instagram.com/michaellogic/">
-                    <i className="fab fa-instagram" /> <span>Dribbble</span>
+                    <i className="fab fa-instagram" /> <span>Instagram</span>
                   </a>
                 </div>
               </div>
