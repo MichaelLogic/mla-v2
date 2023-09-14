@@ -75,7 +75,7 @@ const Footer5 = () => {
             <div className="col-lg-6">
               <div className="footer-copyright-text wow fadeInUp delay-0-2s">
                 <p>
-                  Copyright @2023, <a href="index.html">Michael Logic Administration LLC</a> All Rights
+                  Copyright @2023, <a href="/">Michael Logic Administration LLC</a> All Rights
                   Reserved
                 </p>
               </div>
@@ -84,7 +84,7 @@ const Footer5 = () => {
               <div className="footer-bottom-menu text-lg-end wow fadeInRight delay-0-2s">
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <a href="story">Story</a>
