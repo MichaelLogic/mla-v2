@@ -93,13 +93,13 @@ export default class Home5Slider extends Component {
           {/* Item 1:  Dream Merchant Intro */}
           <div>
             <div
-              className="slider-item"
+              className="slider-item pb-85"
               style={{
                 backgroundImage: "url(assets/images/slider/bg01_mobl_dreammerch.jpg)",
               }}
             >
               <div className="container">
-                <div className="slide-content">
+                <div className="slide-content pt-100">
                   <span className="sub-title">Catch Michael Logic™ ... </span>
                   <h2>
                     <span>a wizard for</span>
@@ -120,13 +120,13 @@ export default class Home5Slider extends Component {
           {/* Item 2:  Dream Merchant Intro */}
           <div>
             <div
-              className="slider-item"
+              className="slider-item pb-85"
               style={{
                 backgroundImage: "url(assets/images/slider/bg02_mobl_dreammerch.jpg)",
               }}
             >
               <div className="container">
-                <div className="slide-content">
+                <div className="slide-content pt-100">
                   <span className="sub-title">Catch Michael Logic™ ... </span>
                   <h2>
                     <span>a wizard for </span>
