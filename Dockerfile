@@ -1,6 +1,6 @@
 FROM node:alpine
 
-LABEL version="1.6.16"
+LABEL version="1.7.0"
 LABEL description="DreamMerchant Marketing App"
 LABEL maintainer = ["ml@michaellogic.com"]
 

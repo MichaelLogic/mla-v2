@@ -62,9 +62,8 @@ const Story = () => {
                   engineered with Typescript, Node.js, Angular, Docker, AWS, Python, 
                   scikit-learn and a few more tools. Freight Bots by DashPing was 
                   engineered with Typescript, Node.js, Angular, Docker, AWS, Python, 
-                  scikit-learn and a few more tools. Sharing the documents attached to 
-                  this job submission will support that I have written over 700,000 
-                  lines of error-free big data manipulating code.
+                  scikit-learn and a few more tools. A review of <a href="dashping">Project: DashPing</a>
+                  that he has written over 700,000 lines of error-free big data manipulating code.
                 </p>
               </div>
             </div>
