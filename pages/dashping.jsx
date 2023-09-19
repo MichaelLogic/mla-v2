@@ -294,7 +294,7 @@ export const getStaticProps = async () => {
         {
           property: "twitter:description",
           content: "Logic and Schreiber prove an industry-wide solution to a national supply chain issue.",
-          key: "ttitle",
+          key: "tdescription",
         },
         {
           property: "twitter:image",

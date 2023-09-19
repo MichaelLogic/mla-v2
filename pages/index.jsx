@@ -592,7 +592,7 @@ export const getStaticProps = async () => {
         {
           property: "twitter:description",
           content: "Engage one of America's most innovative technologists.",
-          key: "ttitle",
+          key: "tdescription",
         },
         {
           property: "twitter:image",

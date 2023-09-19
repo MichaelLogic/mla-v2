@@ -415,7 +415,7 @@ export const getStaticProps = async () => {
         {
           property: "twitter:description",
           content: "Engage The Azure Whisperer to grow your ROI in the cloud with AI.",
-          key: "ttitle",
+          key: "tdescription",
         },
         {
           property: "twitter:image",

@@ -62,7 +62,7 @@ const Story = () => {
                   engineered with Typescript, Node.js, Angular, Docker, AWS, Python, 
                   scikit-learn and a few more tools. Freight Bots by DashPing was 
                   engineered with Typescript, Node.js, Angular, Docker, AWS, Python, 
-                  scikit-learn and a few more tools. A review of <a href="dashping">Project: DashPing</a>
+                  scikit-learn and a few more tools. A review of <a className="" href="dashping">Project: DashPing</a> 
                   that he has written over 700,000 lines of error-free big data manipulating code.
                 </p>
               </div>
@@ -186,7 +186,6 @@ const Story = () => {
 
 
 export const getStaticProps = async () => {
-  console.log(`Open Graph Test **** :-) `);
 
   return {
     props: {
@@ -246,7 +245,7 @@ export const getStaticProps = async () => {
         {
           property: "twitter:description",
           content: "By any means necessary, Michael Logic gained innovative vision and decades of tech experience.",
-          key: "ttitle",
+          key: "tdescription",
         },
         {
           property: "twitter:image",
