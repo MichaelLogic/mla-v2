@@ -110,6 +110,7 @@ const UniversityArticle = () => {
               quickly answer hundreds of thousands per second of queries.
             </p>
           </div>
+
           <div className="why-choose-item wow fadeInUp delay-0-2s">
             <div className="why-choose-header">
               <i className="far fa-chevron-right" />
@@ -118,7 +119,9 @@ const UniversityArticle = () => {
             <p>
               Geofence lookups require CPU-intensive point-in-polygon algorithms. Uber's team 
               concluded Node's dynamically typed nature did not make it optimal for those calculations.
+            </p>
           </div>
+
           <div className="why-choose-item wow fadeInUp delay-0-2s">
             <div className="why-choose-header">
               <i className="far fa-chevron-right" />
@@ -131,6 +134,7 @@ const UniversityArticle = () => {
               extended period of time.
             </p>
           </div>
+          
           <div className="text mt-30">
             <p>
               As one may have experienced, Uber's engineering team used Go to produce a reliable user 
