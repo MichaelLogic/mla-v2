@@ -66,87 +66,91 @@ const UniversityArticle = () => {
 
       {/* University Article Kickoff start */}
       <section className="university-kickoff-area pb-60 rpb-70 rel z-1">
-        <div className="container container-1210   justify-content-center align-items-center">
-          <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
-            <h2>Gain insight on cloud system architecture that performs at the level of Uber's engineering.</h2>
-            <div className="text mt-30">
-              <h4>
-                Does your company have a demand for an Uber level tech performance?
-              </h4>
-              <h4>
-                Do you need to service millions of users simultaneously while handling intense AI processes?
-              </h4>
-              <p>
-                Building enterprise cloud systems requires making very important decisions about 
-                the human resources engineering team the programming languages and tools used to 
-                engineer for high performance & scalability.
-              </p>
-              <p>
-                A Michael Logic™ type of software engineering stack is a great model for building high 
-                performance systems.  For real business context, let’s compare my system architecture 
-                to that Uber’s engineering team.  This is a neat comparison because I coded a digital 
-                marketplace brokerage called DashHaul; which was being rumored as the “Uber of Freight” 
-                before there was an Uber Freight™️.  I faced many of the same challenges as Uber’s 
-                team and we made different decisions to achieve similar results geo-location polling
-                microservice diplomacy.
-              </p>
-              <h4>
-                Uber™ Architecture
-              </h4>
-              <p>
-                In 2016, 
-                <a href="https://www.uber.com/blog/go-geofence-highest-query-per-second-service/" target="_blank">
-                Uber migrated from Node to Go</a> to improve the performance of their geofence 
-                lookup microservice. This microservice turned out to be the company’s service with 
-                the most queries per second (QPS). There were several reasons why Uber decided to 
-                migrate to <a href="https://go.dev/" target="_blank">Go</a>.  At the time their engineering team
-                was facing the following challenges: the dynamically typed 
-                and interpreted nature of Node.js hinders the ability to handle CPU-intensive point-in-polygon algorithms efficiently.
-              </p>
-            </div>
-          </div>
-          
-          <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
-            <div className="why-choose-header">
-              <i className="far fa-chevron-right" />
-              <h5>High-throughput and low-latency requirements</h5>
-            </div>
-            <p>
-              Geofence lookups are required on every request from Uber's mobile apps and must 
-              quickly answer hundreds of thousands per second of queries.
-            </p>
-          </div>
+        <div className="container container-1210">
 
-          <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
-            <div className="why-choose-header">
-              <i className="far fa-chevron-right" />
-              <h5>CPU intensive workload</h5>
+          <div className="row justify-content-center align-items-center">
+            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+              <h2>Gain insight on cloud system architecture that performs at the level of Uber's engineering.</h2>
+              <div className="text mt-30">
+                <h4>
+                  Does your company have a demand for an Uber level tech performance?
+                </h4>
+                <h4>
+                  Do you need to service millions of users simultaneously while handling intense AI processes?
+                </h4>
+                <p>
+                  Building enterprise cloud systems requires making very important decisions about 
+                  the human resources engineering team the programming languages and tools used to 
+                  engineer for high performance & scalability.
+                </p>
+                <p>
+                  A Michael Logic™ type of software engineering stack is a great model for building high 
+                  performance systems.  For real business context, let’s compare my system architecture 
+                  to that Uber’s engineering team.  This is a neat comparison because I coded a digital 
+                  marketplace brokerage called DashHaul; which was being rumored as the “Uber of Freight” 
+                  before there was an Uber Freight™️.  I faced many of the same challenges as Uber’s 
+                  team and we made different decisions to achieve similar results geo-location polling
+                  microservice diplomacy.
+                </p>
+                <h4>
+                  Uber™ Architecture
+                </h4>
+                <p>
+                  In 2016, 
+                  <a href="https://www.uber.com/blog/go-geofence-highest-query-per-second-service/" target="_blank">
+                  Uber migrated from Node to Go</a> to improve the performance of their geofence 
+                  lookup microservice. This microservice turned out to be the company’s service with 
+                  the most queries per second (QPS). There were several reasons why Uber decided to 
+                  migrate to <a href="https://go.dev/" target="_blank">Go</a>.  At the time their engineering team
+                  was facing the following challenges: the dynamically typed 
+                  and interpreted nature of Node.js hinders the ability to handle CPU-intensive point-in-polygon algorithms efficiently.
+                </p>
+              </div>
             </div>
-            <p>
-              Geofence lookups require CPU-intensive point-in-polygon algorithms. Uber's team 
-              concluded Node's dynamically typed nature did not make it optimal for those calculations.
-            </p>
-          </div>
-
-          <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
-            <div className="why-choose-header">
-              <i className="far fa-chevron-right" />
-              <h5>Non-disruptive background loading</h5>
+            
+            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+              <div className="why-choose-header">
+                <i className="far fa-chevron-right" />
+                <h5>High-throughput and low-latency requirements</h5>
+              </div>
+              <p>
+                Geofence lookups are required on every request from Uber's mobile apps and must 
+                quickly answer hundreds of thousands per second of queries.
+              </p>
             </div>
-            <p>
-              Uber's mobile app must ensure the freshest geofences data to perform the lookups and must be
-              kept in-memory in the backgournd.  Uber's team opted out of maximizing Node's single threaded
-              processing elegence for this service because background refreshing can tie up the CPU for an
-              extended period of time.
-            </p>
-          </div>
 
-          <div className="text col-lg-8 mt-30">
-            <p>
-              As one may have experienced, Uber's engineering team used Go to produce a reliable user 
-              experience.  Their geofence microservice performs well despite the decision to settle for
-              a read-write lock methodology that synchronized access the geo-index.
-            </p>
+            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+              <div className="why-choose-header">
+                <i className="far fa-chevron-right" />
+                <h5>CPU intensive workload</h5>
+              </div>
+              <p>
+                Geofence lookups require CPU-intensive point-in-polygon algorithms. Uber's team 
+                concluded Node's dynamically typed nature did not make it optimal for those calculations.
+              </p>
+            </div>
+
+            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+              <div className="why-choose-header">
+                <i className="far fa-chevron-right" />
+                <h5>Non-disruptive background loading</h5>
+              </div>
+              <p>
+                Uber's mobile app must ensure the freshest geofences data to perform the lookups and must be
+                kept in-memory in the backgournd.  Uber's team opted out of maximizing Node's single threaded
+                processing elegence for this service because background refreshing can tie up the CPU for an
+                extended period of time.
+              </p>
+            </div>
+
+            <div className="text col-lg-8 mt-30">
+              <p>
+                As one may have experienced, Uber's engineering team used Go to produce a reliable user 
+                experience.  Their geofence microservice performs well despite the decision to settle for
+                a read-write lock methodology that synchronized access the geo-index.
+              </p>
+            </div>
+
           </div>
 
         </div>
@@ -269,48 +273,50 @@ const UniversityArticle = () => {
           </Swiper>
         </div>
         <div className="container container-1210">
-          <div className="justify-content-center align-items-center col-lg-8 mb-40 wow fadeInUp delay-0-2s">
-            <p>
-              Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
-              know the background story for my current methodology.  I started delivering professional
-              code at 18 years old in the form of online games in 
-              <a href="https://en.wikipedia.org/wiki/ActionScript" target="_blank">ActionScript.</a>  
-              Many years of pushing a Javascript superset to its limit to provide an entertaining and
-              safe experience to kids (our most critical users on Earth) made me an optimization wizard.
-            </p>
-            <h4>
-              The Game Loop
-            </h4>
-            <div className="row justify-content-center pb-30 image wow fadeInUp delay-0-2s">
-              <img
-                src="assets/images/university/game-loop-fixed.png"
-                alt="Game Loop Mastered"
-              />
+          <div className="row justify-content-center align-items-center">
+            <div className="col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+              <p>
+                Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
+                know the background story for my current methodology.  I started delivering professional
+                code at 18 years old in the form of online games in 
+                <a href="https://en.wikipedia.org/wiki/ActionScript" target="_blank">ActionScript.</a>  
+                Many years of pushing a Javascript superset to its limit to provide an entertaining and
+                safe experience to kids (our most critical users on Earth) made me an optimization wizard.
+              </p>
+              <h4>
+                The Game Loop
+              </h4>
+              <div className="pb-30 image wow fadeInUp delay-0-2s">
+                <img
+                  src="assets/images/university/game-loop-fixed.png"
+                  alt="Game Loop Mastered"
+                />
+              </div>
+              <p>
+                One of the quintessential elements of game programming is the 
+                "<a href="https://gameprogrammingpatterns.com/game-loop.html" target="_blank">game loop</a>".  
+                Almost every game you know and love playing has a well crafted game loop in its architecture.
+                I say to my junior engineers, "Once you have mastered the game loop spell, you will be able
+                to pull a <i>Dr. Strange</i> and separate your concept of time from your gamer's reality."
+              </p>
+              <h4>
+                Michael, What does that mean?!
+              </h4>
+              <p>
+                After working with 
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming" target="_blank">Objected Oriented Programming (OOP)</a> 
+                in statically typed languages, my conclusion is most engineers (especially team leaders) have 
+                not had the "type" of experiences a game developer acquires while truly mastering 
+                <a href="https://en.wikipedia.org/wiki/Reactive_programming" target="_blank">Reactive</a> (declaritive) 
+                pogramming using dynamically typed functional methodologies.  In their full glory, OOP and Reactive programming
+                about as different as "structure / sequence" and "chaos / reaction".   
+              </p>
+              <p>
+                In my opinon, the time it takes  to completely understanding Reactive methodology from optimized UI to dynamic persistence is
+                the reason why engineers harbour such strong misunderstandings about the efficiency and purpose
+                of modern JavaScript and <a href="https://nodejs.org/en/about">NodeJS</a>. 
+              </p>
             </div>
-            <p>
-              One of the quintessential elements of game programming is the 
-              "<a href="https://gameprogrammingpatterns.com/game-loop.html" target="_blank">game loop</a>".  
-              Almost every game you know and love playing has a well crafted game loop in its architecture.
-              I say to my junior engineers, "Once you have mastered the game loop spell, you will be able
-              to pull a <i>Dr. Strange</i> and separate your concept of time from your gamer's reality."
-            </p>
-            <h4>
-              Michael, What does that mean?!
-            </h4>
-            <p>
-              After working with 
-              <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming" target="_blank">Objected Oriented Programming (OOP)</a> 
-              in statically typed languages, my conclusion is most engineers (especially team leaders) have 
-              not had the "type" of experiences a game developer acquires while truly mastering 
-              <a href="https://en.wikipedia.org/wiki/Reactive_programming" target="_blank">Reactive</a> (declaritive) 
-              pogramming using dynamically typed functional methodologies.  In their full glory, OOP and Reactive programming
-              about as different as "structure / sequence" and "chaos / reaction".   
-            </p>
-            <p>
-              In my opinon, the time it takes  to completely understanding Reactive methodology from optimized UI to dynamic persistence is
-              the reason why engineers harbour such strong misunderstandings about the efficiency and purpose
-              of modern JavaScript and <a href="https://nodejs.org/en/about">NodeJS</a>. 
-            </p>
           </div>
         </div>
       </div>
@@ -412,59 +418,63 @@ const UniversityArticle = () => {
         </div>
 
         <div className="container container-1210">
-          <div className="justify-content-center align-items-center col-lg-8 wow fadeInUp delay-0-2s">
-            <p>
-              Michael Logic "Paperclip" Architecture is intended to support super-optimized, reactive
-              methodologies that sport a highly cooridinated dance of a stack that is dynamically typed
-              and concurrent from front end to external persistence.
-            </p>
-            <div className="row justify-content-center image wow mb-30 fadeInUp delay-0-2s">
-              <img
-                src="assets/images/university/ml_paperclip_architecture_web.jpg"
-                alt="ML Paperclip Architecture"
-              />
+          <div className="row justify-content-center align-items-center">
+            <div className="justify-content-center align-items-center col-lg-8 wow fadeInUp delay-0-2s">
+              <p>
+                Michael Logic "Paperclip" Architecture is intended to support super-optimized, reactive
+                methodologies that sport a highly cooridinated dance of a stack that is dynamically typed
+                and concurrent from front end to external persistence.  I use the word "paperclip" because
+                it comes from a nickname I give reactive algorithms that solve a small problem very well
+                in the most minimalistic possible solution. 
+              </p>
+              <div className="row justify-content-center image wow mb-30 fadeInUp delay-0-2s">
+                <img
+                  src="assets/images/university/ml_paperclip_architecture_web.jpg"
+                  alt="ML Paperclip Architecture"
+                />
+              </div>
+              <h4>
+                Paperclip Solution Uber
+              </h4>
+              <p>
+                Uber's engineering team did a great job of avoiding 
+                <a href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank">R-tree</a> 
+                or the complicated <a href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank">S2</a> calculations
+                for indexed geofences. They chose a simpler method based on their city-centric business model.  
+                  While the runtime complexity of the solution remains <i>O(N)</i>, this simple technique reduced N 
+                from the order of 10,000s to the order of 100s.
+              </p>
+              <h4>
+                Front End Intelligence
+              </h4>
+              <p>
+                The first difference between my solution and Uber's engineering team would be how I treat the frontend
+                interface like an old ActionScript game with tons of vectors moving and a kid manically pressing buttons.
+                I would exponentially reduce the amount of requests going to the backend by capitalizing on the latency of 
+                human perception, the users device and the current network delivery speed.  These three factors would allow
+                me to create an optimization algorithm dependent on time and vehicle velocity.  Then, since Uber's decisions
+                reduced their geofence indexes to 100s per request ... guess what?!  I would argue those geofences just need
+                to be rapidly sent to the client and let the client's device do the quick calculation since the data is soo minute.
+                Modern front ends can handle more data & processing than the average engineer may have seen if they have
+                not been involved in game interface level optimization sprints. 
+              </p>
+              <p>
+                Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofences objects into
+                only 100 kilobytes of JSON data ... approximately over 133,000 geofences! wow
+              </p>
+              <div className="col-lg-5  mb-30 image wow fadeInUp delay-0-2s">
+                <img
+                  src="assets/images/university/julia_100k_data_test.png"
+                  alt="Julia 100k Data Test"
+                />
+              </div>
+              <p>
+                I'm certain that if a client's front end can process 100s of polygons in milliseconds, the processing of a small
+                amount of geofence comparisons will be effortless and timely.  Michael Logic Paperclip Architecture could drastically
+                reduce the requests the machines hosting Uber's geofence microservice.  Then we can get even better performance
+                by replacing Go with Julia language.
+              </p>
             </div>
-            <h4>
-              Paperclip Solution Uber
-            </h4>
-            <p>
-              Uber's engineering team did a great job of avoiding 
-              <a href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank">R-tree</a> 
-              or the complicated <a href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank">S2</a> calculations
-              for indexed geofences. They chose a simpler method based on their city-centric business model.  
-                While the runtime complexity of the solution remains <i>O(N)</i>, this simple technique reduced N 
-              from the order of 10,000s to the order of 100s.
-            </p>
-            <h4>
-              Front End Intelligence
-            </h4>
-            <p>
-              The first difference between my solution and Uber's engineering team would be how I treat the frontend
-              interface like an old ActionScript game with tons of vectors moving and a kid manically pressing buttons.
-              I would exponentially reduce the amount of requests going to the backend by capitalizing on the latency of 
-              human perception, the users device and the current network delivery speed.  These three factors would allow
-              me to create an optimization algorithm dependent on time and vehicle velocity.  Then, since Uber's decisions
-              reduced their geofence indexes to 100s per request ... guess what?!  I would argue those geofences just need
-              to be rapidly sent to the client and let the client's device do the quick calculation since the data is soo minute.
-              Modern front ends can handle more data & processing than the average engineer may have seen if they have
-              not been involved in game interface level optimization sprints. 
-            </p>
-            <p>
-              Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofences objects into
-              only 100 kilobytes of JSON data ... approximately over 133,000 geofences! wow
-            </p>
-            <div className="col-lg-5  mb-30 image wow fadeInUp delay-0-2s">
-              <img
-                src="assets/images/university/julia_100k_data_test.png"
-                alt="Julia 100k Data Test"
-              />
-            </div>
-            <p>
-              I'm certain that if a client's front end can process 100s of polygons in milliseconds, the processing of a small
-              amount of geofence comparisons will be effortless and timely.  Michael Logic Paperclip Architecture could drastically
-              reduce the requests the machines hosting Uber's geofence microservice.  Then we can get even better performance
-              by replacing Go with Julia language.
-            </p>
           </div>
         </div>
       </div>
