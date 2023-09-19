@@ -1,7 +1,7 @@
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { sliderProps } from "@/src/sliderProps";
 
 const UniversityArticle = () => {
   return (
