@@ -9079,3 +9079,12 @@ blockquote {
 
 .university-title {
   font-size: 50px; }
+
+
+.lil-blu-link {
+  color: var(--ygency-primary-color);
+  font-weight: 800;
+}
+
+
+
