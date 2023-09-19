@@ -32,7 +32,7 @@ const UniversityArticle = () => {
       </div>
       {/* Project Details Image end */}
       {/* Project Details Content Area start */}
-      <section className="project-details-area pb-50 rel z-1">
+      <section className="project-details-area mt-30 pb-50 rel z-1">
         <div className="container container-1210">
           <div className="banner-inner">
             <div className="row">
@@ -418,7 +418,7 @@ const UniversityArticle = () => {
               methodologies that sport a highly cooridinated dance of a stack that is dynamically typed
               and concurrent from front end to external persistence.
             </p>
-            <div className="row justify-content-center image wow fadeInUp delay-0-2s">
+            <div className="row justify-content-center image wow mb-30 fadeInUp delay-0-2s">
               <img
                 src="assets/images/university/ml_paperclip_architecture_web.jpg"
                 alt="ML Paperclip Architecture"
@@ -453,7 +453,7 @@ const UniversityArticle = () => {
               Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofences objects into
               only 100 kilobytes of JSON data ... approximately over 133,000 geofences! wow
             </p>
-            <div className="row justify-content-center pb-30 image wow fadeInUp delay-0-2s">
+            <div className="row justify-content-center mb-30 image wow fadeInUp delay-0-2s">
               <img
                 src="assets/images/university/julia_100k_data_test.png"
                 alt="Julia 100k Data Test"
@@ -524,7 +524,7 @@ const UniversityArticle = () => {
                 <p>
                   Special note:  no actual business competition took place between 
                   Michael Logic and Uber.  This article’s title is simply an exciting 
-                  statement to get here for some industry myth-busting.  Michael 
+                  statement to get you here for some industry myth-busting.  Michael 
                   and Lior Ron (Uber Freight) are “freight friends”. 😆
                 </p>
               </div>
