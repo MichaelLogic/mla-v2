@@ -1,5 +1,8 @@
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+
 const UniversityArticle = () => {
   return (
     <Layout footer={5}>
@@ -134,7 +137,7 @@ const UniversityArticle = () => {
               extended period of time.
             </p>
           </div>
-          
+
           <div className="text mt-30">
             <p>
               As one may have experienced, Uber's engineering team used Go to produce a reliable user 
