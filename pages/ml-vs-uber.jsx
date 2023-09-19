@@ -96,9 +96,9 @@ const UniversityArticle = () => {
                   Uber™ Architecture
                 </h4>
                 <p>
-                  In 2016, 
-                  <a href="https://www.uber.com/blog/go-geofence-highest-query-per-second-service/" target="_blank">
-                  Uber migrated from Node to Go</a> to improve the performance of their geofence 
+                  In 2016,  
+                   <a className="lil-blu-link" href="https://www.uber.com/blog/go-geofence-highest-query-per-second-service/" target="_blank"> 
+                   Uber migrated from Node to Go</a> to improve the performance of their geofence 
                   lookup microservice. This microservice turned out to be the company’s service with 
                   the most queries per second (QPS). There were several reasons why Uber decided to 
                   migrate to <a href="https://go.dev/" target="_blank">Go</a>.  At the time their engineering team
@@ -278,8 +278,8 @@ const UniversityArticle = () => {
               <p>
                 Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
                 know the background story for my current methodology.  I started delivering professional
-                code at 18 years old in the form of online games in 
-                 <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/ActionScript" target="_blank">ActionScript.</a>  
+                code at 18 years old in the form of online games in  
+                  <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/ActionScript" target="_blank">ActionScript. </a>   
                   Many years of pushing a Javascript superset to its limit to provide an entertaining and
                 safe experience to kids (our most critical users on Earth) made me an optimization wizard.
               </p>
@@ -294,8 +294,8 @@ const UniversityArticle = () => {
               </div>
               <p>
                 One of the quintessential elements of game programming is the 
-                 "<a className="lil-blu-link" href="https://gameprogrammingpatterns.com/game-loop.html" target="_blank">game loop</a>".  
-                  Almost every game you know and love playing has a well crafted game loop in its architecture.
+                 "<a className="lil-blu-link" href="https://gameprogrammingpatterns.com/game-loop.html" target="_blank">game loop</a>".   
+                   Almost every game you know and love playing has a well crafted game loop in its architecture.
                 I say to my junior engineers, "Once you have mastered the game loop spell, you will be able
                 to pull a <i>Dr. Strange</i> and separate your concept of time from your gamer's reality."
               </p>
@@ -303,18 +303,18 @@ const UniversityArticle = () => {
                 Michael, What does that mean?!
               </h4>
               <p>
-                After working with 
-                <a className="lil-blu-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming" target="_blank">Objected Oriented Programming (OOP)</a> 
-                in statically typed languages, my conclusion is most engineers (especially team leaders) have 
-                not had the "type" of experiences a game developer acquires while truly mastering 
-                <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/Reactive_programming" target="_blank">Reactive</a> (declaritive) 
+                After working with  
+                 <a className="lil-blu-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming" target="_blank"> Objected Oriented Programming (OOP) </a>  
+                 in statically typed languages, my conclusion is most engineers (especially team leaders) have 
+                not had the "type" of experiences a game developer acquires while truly mastering  
+                 <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/Reactive_programming" target="_blank"> Reactive </a> (declaritive) 
                 pogramming using dynamically typed functional methodologies.  In their full glory, OOP and Reactive programming
                 about as different as "structure / sequence" and "chaos / reaction".   
               </p>
               <p>
                 In my opinon, the time it takes  to completely understanding Reactive methodology from optimized UI to dynamic persistence is
                 the reason why engineers harbour such strong misunderstandings about the efficiency and purpose
-                of modern JavaScript and <a className="lil-blu-link" href="https://nodejs.org/en/about">NodeJS</a>. 
+                of modern JavaScript and  <a className="lil-blu-link" href="https://nodejs.org/en/about"> NodeJS</a>. 
               </p>
             </div>
           </div>
@@ -437,9 +437,9 @@ const UniversityArticle = () => {
                 Paperclip Solution Uber
               </h4>
               <p>
-                Uber's engineering team did a great job of avoiding 
-                 <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank">R-tree</a> 
-                 or the complicated <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank">S2</a>  calculations
+                Uber's engineering team did a great job of avoiding  
+                  <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank"> R-tree </a> 
+                 or the complicated <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank"> S2 </a>  calculations
                 for indexed geofences. They chose a simpler method based on their city-centric business model.  
                   While the runtime complexity of the solution remains <i>O(N)</i>, this simple technique reduced N 
                 from the order of 10,000s to the order of 100s.
@@ -501,9 +501,9 @@ const UniversityArticle = () => {
                   <h3>Julia & Our jLab</h3>
                 </div>
                 <p>
-                  Yes.  
-                    <a className="lil-blu-link" href="https://www.datascienceland.com/blog/performance-between-python-r-julia-and-go-which-one-is-better-29/" target="_blank">Julia is faster than Go</a> 
-                   in all the ways we need to use the language in our Paperclip architecture!  
+                  Yes.   
+                     <a className="lil-blu-link" href="https://www.datascienceland.com/blog/performance-between-python-r-julia-and-go-which-one-is-better-29/" target="_blank"> Julia is faster than Go </a> 
+                    in all the ways we need to use the language in our Paperclip architecture!  
                 </p>
                 <p>
                   Many backend engineers are now comparing Node and Go performance. For Michael Logic 
@@ -595,7 +595,7 @@ export const getStaticProps = async () => {
         },
         {
           property: "og:title",
-          content: "ML Projects: Freight Bots™ by DashPing",
+          content: "Duly Noted: Michael Logic™ versus Uber™ Engineering Team",
           key: "ogtitle",
         },
         {
