@@ -8,7 +8,7 @@ const UniversityArticle = () => {
     <Layout footer={5}>
       {/* Page Banner Section Start */}
       <section
-        className="page-banner pt-210 rpt-150 pb-50 rel z-1"
+        className="page-banner pt-70 rpt-150 pb-50 rel z-1"
         style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container container-1290">
@@ -32,8 +32,8 @@ const UniversityArticle = () => {
       </div>
       {/* Project Details Image end */}
       {/* Project Details Content Area start */}
-      <section className="project-details-area rel z-1">
-        <div className="container container-1290">
+      <section className="project-details-area pb-50 rel z-1">
+        <div className="container container-1210">
           <div className="banner-inner">
             <div className="row">
               <div className="col-xl-8">
@@ -51,9 +51,12 @@ const UniversityArticle = () => {
                     <a href="#">Comment (5)</a>
                   </li>*/}
                 </ul>
-                <h1 className="page-title wow fadeInUp delay-0-3s">
-                  Duly Noded: Michael Logic™ vs. Uber Engineering Team
+                <h1 className="university-title wow fadeInUp delay-0-3s">
+                  Duly Noded:
                 </h1>
+                <h2>
+                   Michael Logic™ vs. Uber Engineering Team
+                </h2>
               </div>
             </div>
           </div>
@@ -62,9 +65,9 @@ const UniversityArticle = () => {
       {/* Project Details Content Area End */}
 
       {/* University Article Kickoff start */}
-      <section className="university-kickoff-area pb-100 rpb-70 rel z-1">
-        <div className="container container-1210">
-          <div className="section-title mb-40 wow fadeInUp delay-0-2s">
+      <section className="university-kickoff-area pb-60 rpb-70 rel z-1">
+        <div className="container container-1210 justify-content-center">
+          <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
             <h2>Gain insight on cloud system architecture that performs at the level of Uber's engineering.</h2>
             <div className="text mt-30">
               <h4>
@@ -103,7 +106,7 @@ const UniversityArticle = () => {
             </div>
           </div>
           
-          <div className="why-choose-item wow fadeInUp delay-0-2s">
+          <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
             <div className="why-choose-header">
               <i className="far fa-chevron-right" />
               <h5>High-throughput and low-latency requirements</h5>
@@ -114,7 +117,7 @@ const UniversityArticle = () => {
             </p>
           </div>
 
-          <div className="why-choose-item wow fadeInUp delay-0-2s">
+          <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
             <div className="why-choose-header">
               <i className="far fa-chevron-right" />
               <h5>CPU intensive workload</h5>
@@ -125,7 +128,7 @@ const UniversityArticle = () => {
             </p>
           </div>
 
-          <div className="why-choose-item wow fadeInUp delay-0-2s">
+          <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
             <div className="why-choose-header">
               <i className="far fa-chevron-right" />
               <h5>Non-disruptive background loading</h5>
@@ -138,7 +141,7 @@ const UniversityArticle = () => {
             </p>
           </div>
 
-          <div className="text mt-30">
+          <div className="text col-lg-8 mt-30">
             <p>
               As one may have experienced, Uber's engineering team used Go to produce a reliable user 
               experience.  Their geofence microservice performs well despite the decision to settle for
@@ -151,7 +154,7 @@ const UniversityArticle = () => {
       {/* How We Works end */}
 
       {/* Mike Logic Game Dev Background start */}
-      <div className="university-gamer-area pt-120 pb-90 rpt-100 rpb-70">
+      <div className="university-gamer-area pb-90 rpt-100 rpb-70">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9 wow fadeInUp delay-0-2s">
             <div className="section-title style-two text-center mb-70">
@@ -203,7 +206,7 @@ const UniversityArticle = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/university/flash_wordsearch02.jpg"
+                    src="assets/images/university/flash_wordsearch02.jpg"
                     alt="BennyWordSearch"
                   />
                 </div>
@@ -219,7 +222,7 @@ const UniversityArticle = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/university/flash_wordsearch.jpg"
+                    src="assets/images/university/flash_wordsearch.jpg"
                     alt="BennyWordSearch"
                   />
                 </div>
@@ -235,7 +238,7 @@ const UniversityArticle = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/university/flash_molemath.jpg"
+                    src="assets/images/university/flash_molemath.jpg"
                     alt="MoleMath"
                   />
                 </div>
@@ -251,7 +254,7 @@ const UniversityArticle = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/university/flash_goohealthy.jpg"
+                    src="assets/images//university/flash_goohealthy.jpg"
                     alt="GooHealthy"
                   />
                 </div>
@@ -266,7 +269,7 @@ const UniversityArticle = () => {
           </Swiper>
         </div>
         <div className="container container-1210">
-          <div className="mb-40 wow fadeInUp delay-0-2s">
+          <div className="col-lg-8 mb-40 wow fadeInUp delay-0-2s">
             <p>
               Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
               know the background story for my current methodology.  I started delivering professional
@@ -278,7 +281,7 @@ const UniversityArticle = () => {
             <h4>
               The Game Loop
             </h4>
-            <div className="row justify-content-center image wow fadeInUp delay-0-2s">
+            <div className="row justify-content-center pb-30 image wow fadeInUp delay-0-2s">
               <img
                 src="assets/images/university/game-loop-fixed.png"
                 alt="Game Loop Mastered"
@@ -315,18 +318,18 @@ const UniversityArticle = () => {
 
       {/* Myths about NodeJS Area start */}
       <section className="university-node-area py-60 rel z-1">
-        <div className="container container-1290">
-          <div className="row justify-content-between align-items-center">
+        <div className="container container-1210">
+          <div className="justify-content-between align-items-center">
             <div className="col-lg-6">
-              <div className="service-about-image wow fadeInLeft delay-0-2s">
+              <div className="service-about-image wow fadeInUp delay-0-2s">
                 <img
                   src="assets/images/university/node_event_loop.png"
                   alt="NodeJS Event Loop"
                 />
               </div>
             </div>
-            <div className="col-xl-5 col-lg-6 mx-xl-auto">
-              <div className="about-content wow fadeInRight delay-0-4s">
+            <div className="col-lg-8 mx-xl-auto">
+              <div className="about-content wow fadeInUp delay-0-4s">
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">"Don't Go All Static on me ;-)  LOL"</span>
                   <h3>False Myths about NodeJS</h3>
@@ -408,111 +411,8 @@ const UniversityArticle = () => {
           </div>
         </div>
 
-        <div className="container-fluid">
-          <Swiper
-            {...sliderProps.galleryFiveActive}
-            className="gallery-five-active"
-          >
-            <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/university/actionscript_code.jpg"
-                    alt="ActionScript Code"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    ActionScript Gaming
-                  </h4>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-
-            <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/university/flash_alphabuzz.jpg"
-                    alt="AlphaBuzz"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    AlphaBuzz: teaches kids typing
-                  </h4>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-
-            <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/university/flash_wordsearch02.jpg"
-                    alt="BennyWordSearch"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    Benny Wordz: teaches kids spelling
-                  </h4>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-
-            <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/university/flash_wordsearch.jpg"
-                    alt="BennyWordSearch"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    Benny Wordz: teaches kids spelling
-                  </h4>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-
-            <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/university/flash_molemath.jpg"
-                    alt="MoleMath"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    Mole Math: teaches kids math
-                  </h4>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-
-             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/university/flash_goohealthy.jpg"
-                    alt="GooHealthy"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    GooHealthy: teaches kids nutrition
-                  </h4>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-            
-          </Swiper>
-        </div>
         <div className="container container-1210">
-          <div className="mb-40 wow fadeInUp delay-0-2s">
+          <div className="col-lg-8 wow fadeInUp delay-0-2s">
             <p>
               Michael Logic "Paperclip" Architecture is intended to support super-optimized, reactive
               methodologies that sport a highly cooridinated dance of a stack that is dynamically typed
@@ -520,7 +420,7 @@ const UniversityArticle = () => {
             </p>
             <div className="row justify-content-center image wow fadeInUp delay-0-2s">
               <img
-                src="assets/images/university/ml_paperclip_architecture.jpg"
+                src="assets/images/university/ml_paperclip_architecture_web.jpg"
                 alt="ML Paperclip Architecture"
               />
             </div>
@@ -553,7 +453,7 @@ const UniversityArticle = () => {
               Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofences objects into
               only 100 kilobytes of JSON data ... approximately over 133,000 geofences! wow
             </p>
-            <div className="row justify-content-center image wow fadeInUp delay-0-2s">
+            <div className="row justify-content-center pb-30 image wow fadeInUp delay-0-2s">
               <img
                 src="assets/images/university/julia_100k_data_test.png"
                 alt="Julia 100k Data Test"
@@ -573,7 +473,7 @@ const UniversityArticle = () => {
 
       {/* jLab Area start */}
       <section className="university-node-area py-60 rel z-1">
-        <div className="container container-1290">
+        <div className="container container-1210">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
               <div className="service-about-image wow fadeInLeft delay-0-2s">
@@ -612,7 +512,7 @@ const UniversityArticle = () => {
 
       {/* Uber Disclaimer Area start */}
       <section className="university-node-area py-60 rel z-1">
-        <div className="container container-1290">
+        <div className="container container-1210">
           <div className="row justify-content-between align-items-center">
             
             <div className="col-xl-5 col-lg-6 mx-xl-auto">
