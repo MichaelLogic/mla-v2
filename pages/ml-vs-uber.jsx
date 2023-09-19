@@ -35,7 +35,7 @@ const UniversityArticle = () => {
       <section className="project-details-area mt-30 pb-50 rel z-1">
         <div className="container container-1210">
           <div className="banner-inner">
-            <div className="row">
+            <div className="row  justify-content-center">
               <div className="col-xl-8">
                 <ul className="blog-meta mb-15 wow fadeInUp delay-0-2s">
                   <li>
@@ -66,7 +66,7 @@ const UniversityArticle = () => {
 
       {/* University Article Kickoff start */}
       <section className="university-kickoff-area pb-60 rpb-70 rel z-1">
-        <div className="container container-1210 justify-content-center">
+        <div className="container container-1210   justify-content-center align-items-center">
           <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
             <h2>Gain insight on cloud system architecture that performs at the level of Uber's engineering.</h2>
             <div className="text mt-30">
@@ -269,7 +269,7 @@ const UniversityArticle = () => {
           </Swiper>
         </div>
         <div className="container container-1210">
-          <div className="col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+          <div className="justify-content-center align-items-center col-lg-8 mb-40 wow fadeInUp delay-0-2s">
             <p>
               Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
               know the background story for my current methodology.  I started delivering professional
@@ -320,7 +320,7 @@ const UniversityArticle = () => {
       <section className="university-node-area py-60 rel z-1">
         <div className="container container-1210">
           <div className="justify-content-between align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 mx-xl-auto">
               <div className="service-about-image wow fadeInUp delay-0-2s">
                 <img
                   src="assets/images/university/node_event_loop.png"
@@ -412,7 +412,7 @@ const UniversityArticle = () => {
         </div>
 
         <div className="container container-1210">
-          <div className="col-lg-8 wow fadeInUp delay-0-2s">
+          <div className="justify-content-center align-items-center col-lg-8 wow fadeInUp delay-0-2s">
             <p>
               Michael Logic "Paperclip" Architecture is intended to support super-optimized, reactive
               methodologies that sport a highly cooridinated dance of a stack that is dynamically typed
@@ -453,7 +453,7 @@ const UniversityArticle = () => {
               Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofences objects into
               only 100 kilobytes of JSON data ... approximately over 133,000 geofences! wow
             </p>
-            <div className="row justify-content-center mb-30 image wow fadeInUp delay-0-2s">
+            <div className="col-lg-5  mb-30 image wow fadeInUp delay-0-2s">
               <img
                 src="assets/images/university/julia_100k_data_test.png"
                 alt="Julia 100k Data Test"
