@@ -272,9 +272,10 @@ const UniversityArticle = () => {
             
           </Swiper>
         </div>
+
         <div className="container container-1210">
           <div className="row justify-content-center align-items-center">
-            <div className="col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+            <div className="col-lg-8 mb-10 wow fadeInUp delay-0-2s">
               <p>
                 Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
                 to know the background story for my current methodology.  I started delivering professional
@@ -312,7 +313,7 @@ const UniversityArticle = () => {
                 about as different as "structure / sequence" and "chaos / reaction".   
               </p>
               <p>
-                In my opinon, the time it takes  to completely understanding Reactive methodology from optimized UI to dynamic persistence is
+                In my opinon, the time it takes  to completely understand Reactive methodology from optimized UI to dynamic persistence is
                 the reason why engineers harbour such strong misunderstandings about the efficiency and purpose
                 of modern JavaScript and  <a className="lil-blu-link" href="https://nodejs.org/en/about"> NodeJS</a>. 
               </p>
@@ -439,7 +440,7 @@ const UniversityArticle = () => {
               <p>
                 Uber's engineering team did a great job of avoiding  
                   <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank"> R-tree </a> 
-                 or the complicated <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/R-tree?uclick_id=f4ed410b-c2ff-4230-bf8f-12d50ea6df71" target="_blank"> S2 </a>  calculations
+                 or the complicated <a className="lil-blu-link" href="https://s2geometry.io/" target="_blank"> S2 </a>  calculations
                 for indexed geofences. They chose a simpler method based on their city-centric business model.  
                   While the runtime complexity of the solution remains <i>O(N)</i>, this simple technique reduced N 
                 from the order of 10,000s to the order of 100s.
@@ -545,16 +546,14 @@ const UniversityArticle = () => {
                 </p>
               </div>
 
-              <div className="container-fluid">
-                <div className="video-part style-two wow fadeInUp delay-0-2s">
-                  <img src="assets/images/video/ffcn_videocover_web.jpg" alt="Fair Freight Compliance Network" />
-                  <a
-                    href="https://www.youtube.com/watch?v=Wua0RcEU07w"
-                    className="mfp-iframe video-play"
-                  >
-                    <i className="fas fa-play" />
-                  </a>
-                </div>
+              <div className="video-part style-two wow mb-30 fadeInUp delay-0-2s">
+                <img src="assets/images/video/ffcn_videocover_web.jpg" alt="Fair Freight Compliance Network" />
+                <a
+                  href="https://www.youtube.com/watch?v=Wua0RcEU07w"
+                  className="mfp-iframe video-play"
+                >
+                  <i className="fas fa-play" />
+                </a>
               </div>
 
             </div>
