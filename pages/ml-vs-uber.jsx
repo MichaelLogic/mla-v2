@@ -277,9 +277,9 @@ const UniversityArticle = () => {
             <div className="col-lg-8 mb-40 wow fadeInUp delay-0-2s">
               <p>
                 Before discussing a Michael Logic type of solution of Uber's needs, it is insightful
-                know the background story for my current methodology.  I started delivering professional
+                to know the background story for my current methodology.  I started delivering professional
                 code at 18 years old in the form of online games in  
-                  <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/ActionScript" target="_blank">ActionScript. </a>   
+                  <a className="lil-blu-link" href="https://en.wikipedia.org/wiki/ActionScript" target="_blank"> ActionScript. </a>   
                   Many years of pushing a Javascript superset to its limit to provide an entertaining and
                 safe experience to kids (our most critical users on Earth) made me an optimization wizard.
               </p>
@@ -341,7 +341,7 @@ const UniversityArticle = () => {
                   <h3>False Myths about NodeJS</h3>
                 </div>
                 <p>
-                  The nuanced advantages of Michael Logic Paperclip Architecture because very clear
+                  The nuanced advantages of Michael Logic Paperclip Architecture become very clear
                   once crucial misunderstandings of NodeJS are dispelled.    
                 </p>
 
@@ -351,7 +351,7 @@ const UniversityArticle = () => {
                     <h5>Node is not scalable</h5>
                   </div>
                   <p>
-                    False, I guarantee a team properly coding a dynamically typed system the need
+                    False, I guarantee a team properly coding a dynamically typed system lacking the need
                     of logic for thread safety will scale faster than a team scrambling with a statically typed 
                     system to code locking methods & multi-thread processing.  Large businesses that
                     say Node is just for smaller apps usually don't have tech leads that have mastered
@@ -366,7 +366,7 @@ const UniversityArticle = () => {
                   </div>
                   <p>
                     False, Node can elegantly handle being the core diplomat of desktop apps, IoT devices,
-                    command line tools and AI cop.   
+                    command line tools and AI copilots.   
                   </p>
                 </div>
 
@@ -422,10 +422,10 @@ const UniversityArticle = () => {
             <div className="justify-content-center align-items-center col-lg-8 wow fadeInUp delay-0-2s">
               <p>
                 Michael Logic "Paperclip" Architecture is intended to support super-optimized, reactive
-                methodologies that sport a highly cooridinated dance of a stack that is dynamically typed
-                and concurrent from front end to external persistence.  I use the word "paperclip" because
+                methodologies.   Think of a highly cooridinated dance of dynamically typed async functional
+                methods and concurrency from front end to external persistence.  I use the word "paperclip" because
                 it comes from a nickname I give reactive algorithms that solve a small problem very well
-                in the most minimalistic possible solution. 
+                with the most minimalistic possible solution. 
               </p>
               <div className="row justify-content-center image wow mb-30 fadeInUp delay-0-2s">
                 <img
@@ -434,7 +434,7 @@ const UniversityArticle = () => {
                 />
               </div>
               <h4>
-                Paperclip Solution Uber
+                Paperclip Solution for Uber
               </h4>
               <p>
                 Uber's engineering team did a great job of avoiding  
@@ -454,12 +454,12 @@ const UniversityArticle = () => {
                 human perception, the users device and the current network delivery speed.  These three factors would allow
                 me to create an optimization algorithm dependent on time and vehicle velocity.  Then, since Uber's decisions
                 reduced their geofence indexes to 100s per request ... guess what?!  I would argue those geofences just need
-                to be rapidly sent to the client and let the client's device do the quick calculation since the data is soo minute.
+                to be rapidly sent to the client and let the client's device do the quick calculation since the data is minute.
                 Modern front ends can handle more data & processing than the average engineer may have seen if they have
                 not been involved in game interface level optimization sprints. 
               </p>
               <p>
-                Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofences objects into
+                Look at the Julia script output below.  We can confirm that you can fit quite a bit of geofence objects into
                 only 100 kilobytes of JSON data ... approximately over 133,000 geofences! wow
               </p>
               <div className="col-lg-5  mb-30 image wow fadeInUp delay-0-2s">
@@ -471,7 +471,7 @@ const UniversityArticle = () => {
               <p>
                 I'm certain that if a client's front end can process 100s of polygons in milliseconds, the processing of a small
                 amount of geofence comparisons will be effortless and timely.  Michael Logic Paperclip Architecture could drastically
-                reduce the requests the machines hosting Uber's geofence microservice.  Then we can get even better performance
+                reduce the requests to machines hosting Uber's geofence microservice.  Then we can get even better performance
                 by replacing Go with Julia language.
               </p>
             </div>
@@ -544,6 +544,21 @@ const UniversityArticle = () => {
                   and Lior Ron (Uber Freight) are “freight friends”. 😆
                 </p>
               </div>
+
+              <div className="col-lg-6">
+                <div className="container-fluid">
+                  <div className="video-part style-two wow fadeInUp delay-0-2s">
+                    <img src="assets/images/video/ffcn_videocover_web.jpg" alt="Fair Freight Compliance Network" />
+                    <a
+                      href="https://www.youtube.com/watch?v=Wua0RcEU07w"
+                      className="mfp-iframe video-play"
+                    >
+                      <i className="fas fa-play" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div className="col-lg-6">
