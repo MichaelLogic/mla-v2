@@ -86,10 +86,10 @@ const UniversityArticle = () => {
                 <p>
                   A Michael Logic™ type of software engineering stack is a great model for building high 
                   performance systems.  For real business context, let’s compare my system architecture 
-                  to that Uber’s engineering team.  This is a neat comparison because I coded a digital 
+                  to that of Uber’s engineering team.  This is a neat comparison because I coded a digital 
                   marketplace brokerage called DashHaul; which was being rumored as the “Uber of Freight” 
                   before there was an Uber Freight™️.  I faced many of the same challenges as Uber’s 
-                  team and we made different decisions to achieve similar results geo-location polling
+                  team and we made different decisions to achieve similar results for geo-location polling
                   microservice diplomacy.
                 </p>
                 <h4>
