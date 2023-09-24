@@ -105,7 +105,46 @@ const Story = () => {
       </section>
       {/* About Us Area end */}
 
-            {/* Statistics Area start */}
+      {/* About Us Area start */}
+      <section className="service-page-about py-130 rpy-100 rel z-1">
+        <div className="container container-1290">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-xl-5 col-lg-6">
+              <div className="about-five-images mb-50 lmt-50 wow fadeInLeft delay-0-2s">
+                <img
+                    src="assets/images/prevu/dulynoded_prevu.jpg"
+                    alt="Michael Logic vs. Uber Engineering Team"
+                  />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-content-five">
+                <div className="section-title mb-40 wow fadeInUp delay-0-2s">
+                  <span className="sub-title mb-15">Michael Logic™ Paperclip Cloud Architecture</span>
+                  <h2>
+
+                  </h2>
+                </div>
+                <p>
+                  A Michael Logic™ type of software engineering stack is a great model for building high 
+                  performance systems.  For real business context, let’s compare his system architecture 
+                  to that of Uber’s engineering team.  This is a neat comparison because he coded a ...
+                </p>
+                <div className="mt-30">
+                  <a href="ml-vs-uber" 
+                     className="theme-btn style-two"
+                     target="_blank">
+                    Read Full Article <i className="far fa-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* About Us Area end */}
+
+      {/* Statistics Area start */}
       <div
         className="statistics-area pt-30 rpt-70 rel z-1"
         style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
