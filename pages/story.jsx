@@ -161,7 +161,7 @@ const Story = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-3s">
                 <i className="fal fa-check-circle" />
-                <Counter end={3.5} extraClass={"k"} />
+                <Counter end={3.5} extraClass={"+"} />
                 <span className="counter-title">Million Lines of Code Published</span>
               </div>
             </div>
