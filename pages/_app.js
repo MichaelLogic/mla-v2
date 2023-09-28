@@ -64,13 +64,13 @@ export default function App({ Component, pageProps }) {
       {loaded && <Component {...pageProps} />}
 
       {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39572249-2"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSG6EPEKRX"></script>
       <script>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'UA-39572249-2');
+          gtag('config', 'G-TSG6EPEKRX');
         `}
       </script>
 
