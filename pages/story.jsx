@@ -60,9 +60,7 @@ const Story = () => {
                   enterprise solution to a decades old trucking issue (truck detention) 
                   that even The White House mandated. Freight Bots™ by DashPing is 
                   engineered with Typescript, Node.js, Angular, Docker, AWS, Python, 
-                  scikit-learn and a few more tools. Freight Bots by DashPing was 
-                  engineered with Typescript, Node.js, Angular, Docker, AWS, Python, 
-                  scikit-learn and a few more tools. A review of <a className="" href="dashping">Project: DashPing</a> 
+                  scikit-learn, Kubernetes and a few more tools. A review of <a className="lil-blu-link" href="dashping"> Project: DashPing </a> 
                   that he has written over 700,000 lines of error-free big data manipulating code.
                 </p>
               </div>
@@ -83,7 +81,7 @@ const Story = () => {
                     to provide assistance deriving claims of original systems and methods of 
                     artificial intelligence with live drama media for an approved patent.
                     This innovation was recognized and supported by 
-                    <a href="https://siliconangle.com/2016/10/25/how-to-watch-live-from-ibm-world-of-watson-wow16/" target="_blank"> IBM Watson team</a>. 
+                    <a className="lil-blu-link" href="https://siliconangle.com/2016/10/25/how-to-watch-live-from-ibm-world-of-watson-wow16/" target="_blank"> IBM Watson team</a>. 
                     He also is the technical author of four other pending patents for artificial 
                     intelligence and clean sustainable energy.     
                   </p>
