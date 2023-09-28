@@ -231,7 +231,7 @@ export const getStaticProps = async () => {
         {
           property: "og:image",
           content:
-            "https://michaellogic.com/assets/images/prevu/ninjamode_story_prevu.jpg",
+            "https://michaellogic.com/assets/images/prevu/ninjamode_story01_prevu.jpg",
           key: "ogimage",
         },
         {
