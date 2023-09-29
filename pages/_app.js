@@ -60,9 +60,7 @@ export default function App({ Component, pageProps }) {
         {/* Main Style */}
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
-      {!loaded && <PreLoader />}
-      {loaded && <Component {...pageProps} />}
-
+      
       {/* Google tag (gtag.js) */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSG6EPEKRX"></script>
       <script>
@@ -73,6 +71,9 @@ export default function App({ Component, pageProps }) {
           gtag('config', 'G-TSG6EPEKRX');
         `}
       </script>
+
+      {!loaded && <PreLoader />}
+      {loaded && <Component {...pageProps} />}
 
     </Fragment>
   );
