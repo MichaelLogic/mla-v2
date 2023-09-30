@@ -1,6 +1,6 @@
 {
   "name": "dream-merch-react",
-  "version": "1.7.21",
+  "version": "1.7.22",
   "private": false,
   "publishConfig": {
     "registry": "https://pkgs.dev.azure.com/BHEC-DA2/_packaging/DreamMerchant_Artfx/npm/registry/"
