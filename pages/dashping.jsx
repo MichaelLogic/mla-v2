@@ -35,8 +35,8 @@ const DashPing = () => {
       {/* Page Banner Section End */}
       {/* Project Details Image start */}
       <div className="project-details-image rel z-1">
-        <div className="container-fluid justify-content-between align-items-center">
-          <div className="image wow fadeInUp delay-0-2s">
+        <div className="container-fluid">
+          <div className="row justify-content-center image wow fadeInUp delay-0-2s">
             <img
               src="assets/images/projects/two_mill_carriers_infographic.jpg"
               alt="DashPing presents Freight Bots™"
