@@ -136,15 +136,6 @@ const ModernizeArticle = () => {
                 that adhere to Department of Defense Cyber Workforce Framework.
               </p>
             </div>
-
-            <div className="text col-lg-8 mt-30">
-              <p>
-                As one may have experienced, Uber's engineering team used Go to produce a reliable user 
-                experience.  Their geofence microservice performs well despite the decision to settle for
-                a read-write lock methodology that synchronized access the geo-index.
-              </p>
-            </div>
-
           </div>
 
         </div>
