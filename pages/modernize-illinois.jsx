@@ -234,7 +234,7 @@ const ModernizeArticle = () => {
                   </p>
                   <p>
                     In 2015, Michael Logic™ Davis completed a year long survey and observation  of law 
-                    firm marketing practices. His interesting study birth an evolved way for Illinois 
+                    firm marketing practices. His interesting study birthed an evolved way for Illinois 
                     citizens to seek legal assistance. Optimizing the matching of legal experts with 
                     citizens in immediate need can improve quality of life for both client and esquire. 
                     Michael calls it “<a className="lil-blu-link" href="https://mlams01.blob.core.windows.net/whitepapers/LoopLegendsOfficial.pdf" target="_blank">Loop Legends</a>”
