@@ -53,7 +53,6 @@ const DaskTopMenu = () => {
           <span className="far fa-plus" />
         </div>
       </li>
-      
     </ul>
   );
 };
@@ -87,9 +86,22 @@ const MobileMenu = () => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link legacyBehavior href="dashping">
-          Projects
-        </Link>
+        <a href="#">Projects</a>
+        <ul>
+          <li>
+            <Link legacyBehavior href="dashping">
+              DashPing
+            </Link>
+          </li>
+          <li>
+            <Link legacyBehavior href="modernize-illinois">
+              Modernize Illinois
+            </Link>
+          </li>
+        </ul>
+        <div className="dropdown-btn">
+          <span className="far fa-plus" />
+        </div>
       </li>
 
     </ul>
