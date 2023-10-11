@@ -48,6 +48,11 @@ const DaskTopMenu = () => {
               Modernize Illinois
             </Link>
           </li>
+          <li>
+            <Link legacyBehavior href="ml-vs-uber">
+              Mike Logic vs. Uber
+            </Link>
+          </li>
         </ul>
         <div className="dropdown-btn">
           <span className="far fa-plus" />
@@ -96,6 +101,11 @@ const MobileMenu = () => {
           <li>
             <Link legacyBehavior href="modernize-illinois">
               Modernize Illinois
+            </Link>
+          </li>
+          <li>
+            <Link legacyBehavior href="ml-vs-uber">
+              Mike Logic vs. Uber
             </Link>
           </li>
         </ul>
