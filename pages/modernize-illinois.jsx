@@ -112,7 +112,7 @@ const ModernizeArticle = () => {
                 </h5>
               </div>
               <p>
-                (ML Engineer / R & D) The “Number Wizard” from Northwester University ensures calculations in our foundation 
+                (ML Engineer / R & D) The “Number Wizard” from Northwestern University ensures calculations in our foundation 
                 data science and machine learning adhere to high standards of accuracy and validation.  
                 Working with Clark, Michael guarantees our systems will go beyond satisfactory performance 
                 and provide valuable public service “data stories” that explain solutions to problems 
