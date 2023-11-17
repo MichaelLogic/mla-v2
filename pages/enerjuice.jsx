@@ -169,8 +169,9 @@ const UniversityArticle = () => {
                 </h4>
               </div>
             </div>
+            
+            <h3>How will Plugory™ help our young adults?</h3>
             <div className="why-cehoose-item col-lg-8 wow fadeInUp delay-0-2s">
-              <h3>How will Plugory™ help our young adults?</h3>
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>JOBS</h5>
