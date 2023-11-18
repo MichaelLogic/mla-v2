@@ -78,7 +78,7 @@ const UniversityArticle = () => {
                 <p>
                   One year after engineering <a className="lil-blu-link" href="https://michaellogic.com/dashping" target="_blank"> Freight Bots™ by DashPing </a>, the first industry-wide solution 
                   to a mandated multi-billion dollar <a className="lil-blu-link" href="https://www.regulations.gov/docket/FMCSA-2023-0172" target="_blank"> U.S. DOT issue </a>, software engineer & AI systems 
-                  visionary Michael Logic™ Davis had what he calls a “Telsa moment”.  
+                  visionary Michael Logic™ Davis had what he calls a “Tesla moment”.  
                 </p>
                 <p>
                   Michael describes this moment as reaching a milestone of acquiring the real world 
