@@ -169,9 +169,13 @@ const UniversityArticle = () => {
                 </h4>
               </div>
             </div>
-            
-            <h3>How will Plugory™ help our young adults?</h3>
-            <div className="why-cehoose-item col-lg-8 wow fadeInUp delay-0-2s">
+
+
+            <div className="col-lg-8 wow fadeInLeft delay-0-2s">
+              <h3>How will Plugory™ help our young adults?</h3>
+            </div>
+
+            <div className="why-choose-item col-lg-8 wow fadeInRight delay-0-2s">
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>JOBS</h5>
@@ -181,7 +185,7 @@ const UniversityArticle = () => {
               </p>
             </div>
 
-            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+            <div className="why-choose-item col-lg-8 wow fadeInLeft delay-0-2s">
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>TALK</h5>
@@ -193,7 +197,7 @@ const UniversityArticle = () => {
               </p>
             </div>
 
-            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+            <div className="why-choose-item col-lg-8 wow fadeInRight delay-0-2s">
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>FITNESS</h5>
@@ -204,7 +208,7 @@ const UniversityArticle = () => {
               </p>
             </div>
 
-            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+            <div className="why-choose-item col-lg-8 wow fadeInLeft delay-0-2s">
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>EDUCATION</h5>
@@ -215,7 +219,7 @@ const UniversityArticle = () => {
               </p>
             </div>
 
-            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+            <div className="why-choose-item col-lg-8 wow fadeInRight delay-0-2s">
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>GAMING</h5>
@@ -225,7 +229,7 @@ const UniversityArticle = () => {
               </p>
             </div>
 
-            <div className="why-choose-item col-lg-8 wow fadeInUp delay-0-2s">
+            <div className="why-choose-item col-lg-8 wow fadeInLeft delay-0-2s">
               <div className="why-choose-header">
                 <i className="far fa-chevron-right" />
                 <h5>CONTRIBUTION</h5>
