@@ -39,6 +39,11 @@ const DaskTopMenu = () => {
         <a href="#">Projects</a>
         <ul>
           <li>
+            <Link legacyBehavior href="enerjuice">
+              Enerjuice™
+            </Link>
+          </li>
+          <li>
             <Link legacyBehavior href="dashping">
               DashPing
             </Link>
@@ -93,6 +98,11 @@ const MobileMenu = () => {
       <li className="dropdown">
         <a href="#">Projects</a>
         <ul>
+          <li>
+            <Link legacyBehavior href="enerjuice">
+              Enerjuice™
+            </Link>
+          </li>
           <li>
             <Link legacyBehavior href="dashping">
               DashPing

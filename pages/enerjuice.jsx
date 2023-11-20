@@ -55,7 +55,7 @@ const UniversityArticle = () => {
                   Enerjuice™:
                 </h1>
                 <h2>
-                   A coder and a mathimatician invent a clean energy system powered by peculiar globally sustainable sources.
+                   A coder and a mathematician invent a clean energy system powered by peculiar globally sustainable sources.
                 </h2>
               </div>
             </div>
