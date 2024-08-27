@@ -246,9 +246,9 @@ const UniversityArticle = () => {
           </div>
 
         </div>
-        <div className="container container-1290">
+        <div className="container container-1210">
           <div className="row justify-content-between align-items-center">
-            <div className="col-xl-5 col-lg-6">
+            <div className="col-lg-6">
               <div className="about-five-images mb-50 lmt-50 wow fadeInLeft delay-0-2s">
                 <img
                     src="assets/images/prevu/enerjuice_site_prevu.jpg"
@@ -258,7 +258,7 @@ const UniversityArticle = () => {
             </div>
             <div className="col-lg-6">
               <div className="about-content-five">
-                <div className="section-title mb-40 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-15 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">Squeezing power from motion!</span>
                   <h2>
 
