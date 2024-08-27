@@ -46,7 +46,7 @@ const Footer5 = () => {
                 </li>
                 <li>
                   <i className="far fa-phone" />{" "}
-                  <a href="callto:7086640953">708.664.0953</a>
+                  <a href="callto:7084765313">708.476.5313</a>
                 </li>
               </ul>
             </div>

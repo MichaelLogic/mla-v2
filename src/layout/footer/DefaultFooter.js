@@ -57,9 +57,9 @@ const DefaultFooter = () => {
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:7086640953"
+                  href="callto:7084765313"
                 >
-                  708.664.0953<i className="far fa-arrow-right" />
+                  708.476.5313<i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>

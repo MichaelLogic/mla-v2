@@ -19,6 +19,7 @@ const UniversityArticle = () => {
         </div>
       </section>
       {/* Page Banner Section End */}
+
       {/* Project Details Image start */}
       <div className="project-details-image rel z-1">
         <div className="container-fluid">
@@ -31,6 +32,7 @@ const UniversityArticle = () => {
         </div>
       </div>
       {/* Project Details Image end */}
+
       {/* Project Details Content Area start */}
       <section className="project-details-area mt-30 pb-50 rel z-1">
         <div className="container container-1210">
@@ -243,6 +245,40 @@ const UniversityArticle = () => {
 
           </div>
 
+        </div>
+        <div className="container container-1290">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-xl-5 col-lg-6">
+              <div className="about-five-images mb-50 lmt-50 wow fadeInLeft delay-0-2s">
+                <img
+                    src="assets/images/prevu/enerjuice_site_prevu.jpg"
+                    alt="Enerjuice - Squeezing Power from Motion"
+                  />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-content-five">
+                <div className="section-title mb-40 wow fadeInUp delay-0-2s">
+                  <span className="sub-title mb-15">Squeezing power from motion!</span>
+                  <h2>
+
+                  </h2>
+                </div>
+                <p>
+                  America's aged power grid was built for a fossil fuel economy.  With a rapidly increasing 
+                  demand for zero carbon emission power, we have desperately need innovative new approaches
+                  for capturing and distribution renewable energy.
+                </p>
+                <div className="mt-30">
+                  <a href="https://enerjuice.io" 
+                     className="theme-btn style-two"
+                     target="_blank">
+                    Learn More <i className="far fa-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       {/* How We Works end */}
