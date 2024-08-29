@@ -199,7 +199,7 @@ const Story = () => {
                 <p>
                   Michael is a big advocate for hardworking Americans without advanced 
                   nor 4-year college degrees. Great opportunity lies within various tech
-                  sectors. So he made a commitment to work with anyone who help him reach
+                  sectors. So he made a commitment to work with anyone who will help him reach
                   The White House to answer the call-to-action for <b>America's 
                   Talent Pipeline Challenge</b>.
                 </p>

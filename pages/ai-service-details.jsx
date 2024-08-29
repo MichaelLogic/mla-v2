@@ -72,7 +72,7 @@ const AiServiceDetails = () => {
                 </div>
                 <p>
                   Good AI engineers know how to create artificial intelligence.  
-                  Yet the Azure Whisperer knows <i>what</i> create to help you gain an unfair advantage.     
+                  Yet the Azure Whisperer knows <i>what</i> to create to help you gain an unfair advantage.     
                 </p>
                 <ul className="list-style-three pt-15 pb-25">
                   <li>Breakup Homogenous Thought</li>
