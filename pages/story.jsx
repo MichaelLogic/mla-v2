@@ -71,7 +71,7 @@ const Story = () => {
       {/* Services Page About Area end */}
 
       {/* About Us Area start */}
-      <section className="about-area-five py-130 rpy-100 rel z-1">
+      <section id="qd-interactive" className="about-area-five py-130 rpy-100 rel z-1">
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center">
               <div className="col-lg-6">
@@ -183,7 +183,7 @@ const Story = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="about-five-images mb-50 lmt-50 wow fadeInLeft delay-0-2s">
                 <img
-                    src="assets/images/logic/pushinkeys_challenge_cvr_web.jpg"
+                    src="assets/images/logic/pushinkeys_at_iit_cvr_web.jpg"
                     alt="PushinKeys: Talent Pipeline Challenge cover"
                   />
               </div>
@@ -204,7 +204,7 @@ const Story = () => {
                   Talent Pipeline Challenge</b>.
                 </p>
                 <div className="mt-30">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/pushinkeys_challenge_rev04b.pdf" 
+                  <a href="https://mlams01.blob.core.windows.net/whitepapers/pushinkeys_workforce_program_no_ask.pdf" 
                      className="theme-btn style-two"
                      target="_blank">
                     View PDF <i className="far fa-arrow-right" />
