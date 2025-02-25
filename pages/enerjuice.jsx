@@ -6,6 +6,7 @@ import { sliderProps } from "@/src/sliderProps";
 const UniversityArticle = () => {
   return (
     <Layout footer={5}>
+
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-70 rpt-150 pb-50 rel z-1"
@@ -42,7 +43,7 @@ const UniversityArticle = () => {
                 <ul className="blog-meta mb-15 wow fadeInUp delay-0-2s">
                   <li>
                     <i className="fal fa-user-alt" />
-                    <a href="#">University</a>
+                    <a href="https://plugory.com/university">OPN University</a>
                   </li>
                   <li>
                     <i className="far fa-calendar-alt" />

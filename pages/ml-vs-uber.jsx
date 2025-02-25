@@ -40,7 +40,7 @@ const UniversityArticle = () => {
                 <ul className="blog-meta mb-15 wow fadeInUp delay-0-2s">
                   <li>
                     <i className="fal fa-user-alt" />
-                    <a href="#">University</a>
+                    <a href="https://plugory.com/university">OPN University</a>
                   </li>
                   <li>
                     <i className="far fa-calendar-alt" />

@@ -31,9 +31,22 @@ const DaskTopMenu = () => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link legacyBehavior href="ai-service-details">
-          AI Services
-        </Link>
+        <a href="#">AI</a>
+        <ul>
+          <li>
+            <Link legacyBehavior href="ai-service-details">
+              AI Services
+            </Link>
+          </li>
+          <li>
+            <Link legacyBehavior href="equity-of-human-spirit">
+              To Be Human
+            </Link>
+          </li>
+        </ul>
+        <div className="dropdown-btn">
+          <span className="far fa-plus" />
+        </div>
       </li>
       <li className="dropdown">
         <a href="#">Projects</a>
