@@ -4169,11 +4169,16 @@ h6, .h6 {
 /*******************************************************/
 /******************* ## DEBUT Area ********************/
 /*******************************************************/
+.debut-intro {
+  z-index: 1;
+  position: relative;
+  background-size: cover;
+  background-position: center; }
 
 .debut-item {
   padding-top: 215px;
   padding-bottom: 185px;
-  z-index: 1;
+  z-index: 2;
   position: relative;
   background-size: cover;
   background-position: center; }

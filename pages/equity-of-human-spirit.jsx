@@ -34,7 +34,7 @@ const EquityOfHumanSpirit = () => {
 
       {/* -- Desktop -- */}
       <section
-        className="debut-area pt-210 rpt-150 pb-25 rel z-1 d-none d-lg-block"
+        className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-none d-lg-block"
         style={{ backgroundImage: "url(assets/images/qwin/bg_desk_dinc.jpg)" }}
       >
         <div className="container">
@@ -42,7 +42,7 @@ const EquityOfHumanSpirit = () => {
             <div className="debut-content">
               <img
                   className="eoths-title"
-                  src="assets/images/qwin/eoths_title_grffk.jpg"
+                  src="assets/images/qwin/eoths_title_grffk.svg"
                   alt="Equity of the Human Spirit"
                 />
             </div>
@@ -52,7 +52,7 @@ const EquityOfHumanSpirit = () => {
 
       {/* -- Mobile -- */}
       <section
-        className="debut-area pt-210 rpt-150 pb-25 rel z-1 d-lg-none"
+        className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-lg-none"
         style={{ backgroundImage: "url(assets/images/qwin/bg_mobile_dinc.jpg)" }}
       >
         <div className="container">
@@ -60,7 +60,7 @@ const EquityOfHumanSpirit = () => {
             <div className="debut-content">
               <img
                   className="eoths-title"
-                  src="assets/images/qwin/eoths_title_grffk.jpg"
+                  src="assets/images/qwin/eoths_title_grffk.svg"
                   alt="Equity of the Human Spirit"
                 />
             </div>
@@ -209,7 +209,7 @@ const EquityOfHumanSpirit = () => {
                 Newton X thought they had stolen from Michael LogicTM Davis. Instead, they had ignited a movement.
                 </p>
 
-                
+
               </div>
             </div>
            
