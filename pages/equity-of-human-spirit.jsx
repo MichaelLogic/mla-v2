@@ -240,6 +240,24 @@ const EquityOfHumanSpirit = () => {
       </div>
       {/* Scrolling Headline Area end */}
 
+      {/* Product Display Section */}
+      <section className="debut-area pb-60 rpb-70 rel z-1">
+        <div className="container container-1210">
+          <div className="row justify-content-center align-items-center">
+            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+
+              <img
+                  className="qwin-display"
+                  src="assets/images/qwin/qwin_design01_plate_clr.png"
+                  alt="Qwin - Your quantum secure AI twin"
+                />
+
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Product Display Section end */}
+
 
 
       {/* Services Page About Area start */}
@@ -249,7 +267,7 @@ const EquityOfHumanSpirit = () => {
             <div className="col-lg-6">
               <div className="service-about-image wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/about/azure_whisperer_ml03_web.jpg"
+                  src="assets/images/qwin/terawatts_qwin_rnd_ig_promo01_smll.jpg"
                   alt="About"
                 />
               </div>
@@ -257,17 +275,31 @@ const EquityOfHumanSpirit = () => {
             <div className="col-xl-5 col-lg-6 mx-xl-auto">
               <div className="about-content wow fadeInRight delay-0-4s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-15">Limited Client Offer</span>
-                  <h2>Michael Logic™, Microsoft™ & OpenAI™ </h2>
+                  <span className="sub-title mb-15">There is no AI without EI</span>
+                  <h2>Project Tera Watts: Protecting Earth & Humans</h2>
                 </div>
                 <p>
-                  Good AI engineers know how to create artificial intelligence.  
-                  Yet the Azure Whisperer knows <i>what</i> to create to help you gain an unfair advantage.     
+                  Michael Logic formed 
+                  <a className="lil-blu-link" href="https://plugory.com" target="_blank"> Grid Hoppers </a> - 
+                  a select few of the world's greatest chemists, coders, 
+                  educators, mathematicians and physicists focused on address cognitive dissonance
+                  that stifles energy innovation and climate action. 
+                </p>
+                <p>
+                  <a className="lil-blu-link" href="https://plugory.com/tera-watts" target="_blank"> Project Tera Watts </a>  
+                  is an implementation plan investing $2 billion into American HBCUs and Native American Tribal
+                  Colleges & Universities as a risk mitigation strategy for domestic power demand and global climate action.
+                </p>
+                <p>
+                  Qwin research and development is now an important tool in achieving success with Project Tera Watts
+                  due to its ability to accellerate the following:
                 </p>
                 <ul className="list-style-three pt-15 pb-25">
-                  <li>Breakup Homogenous Thought</li>
-                  <li>Translate Business Desires into AI Algorithms</li>
-                  <li>Implement DevOps for AI Engineering Team</li>
+                  <li>Increase overall equity of an individual human</li>
+                  <li>Establish a workforce to support a new age energy infrastructure</li>
+                  <li>Establish a heighten civil and commercial trust - <a className="lil-blu-link" href="https://www.woplli.com/architecture-principles" target="_blank"> Trust Fabric™ </a></li>
+                  <li>Realize Master Systems Integration to support edge computing infrastructure</li>
+                  <li>Increase evangelism of ESG reform</li>
                 </ul>
                 {/*<Link legacyBehavior href="/about">
                   <a className="read-more mt-10 color-primary">
@@ -283,7 +315,7 @@ const EquityOfHumanSpirit = () => {
 
       
       {/* Video Area start */}
-      <div className="video-area-two rel z-1">
+      {/*<div className="video-area-two rel z-1">
         <div className="container-fluid">
           <div className="video-part style-two wow fadeInUp delay-0-2s">
             <img src="assets/images/video/ai_n_chicken_cvr.jpg" alt="Michael Logic Explains AI with Fried Chicken Wings" />
@@ -295,46 +327,8 @@ const EquityOfHumanSpirit = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div>*/}
       {/* Video Area end */}
-      
-      {/* Why Choose Us start */}
-      <section className="why-choose-area pt-100 pt-70 rel z-1">
-        <div className="container container-1290">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-xl-6 col-lg-8">
-              <div className="why-choose-us-content">
-                <div className="section-title mb-60 wow fadeInLeft delay-0-2s">
-                  <span className="sub-title mb-15">Client Testimonial</span>
-                  <h2>BH Engineering Creates Innovative RegTech with Azure™ & OpenAI™</h2>
-                </div>
-                <div className="row gap-60">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf" 
-                     className="read-more mt-10 mb-50 color-primary"
-                     target="_blank">
-                    Read Full Testimonial <i className="far fa-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="row justify-content-between align-items-center">
-                <div className="service-about-image style-two wow fadeInRight delay-0-2s">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
-                     target="_blank">
-                    <img
-                      src="assets/images/about/lor_bh_engineering_thum.jpg"
-                      alt="Letter of Recommendation - BH Engineering for AuditTech™"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Why Choose Us end */}
-
 
 
       {/* footer area start */}
@@ -348,12 +342,12 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      pTitle: "Michael Logic™, The Azure Cloud Whisperer",
+      pTitle: "Equity of the Human Spirit: Your data is the new cotton.",
       openGraphData: [
         {
           property: "og:image",
           content:
-            "https://michaellogic.com/assets/images/prevu/ninjamode_story01_prevu.jpg",
+            "https://michaellogic.com/assets/images/prevu/dinc_prevu.jpg",
           key: "ogimage",
         },
         {
@@ -368,17 +362,17 @@ export const getStaticProps = async () => {
         },
         {
           property: "og:url",
-          content: `https://michaellogic.com/ai-service-details`,
+          content: `https://michaellogic.com/equity-of-human-spirit`,
           key: "ogurl",
         },
         {
           property: "og:title",
-          content: "Michael Logic™, The Azure Cloud Whisperer",
+          content: "Equity of the Human Spirit: Your data is the new cotton.",
           key: "ogtitle",
         },
         {
           property: "og:description",
-          content: "Engage The Azure Whisperer to grow your ROI in the cloud with AI.",
+          content: "a true story of a Chicago born innovator that became the architect of data sovereignty",
           key: "ogdesc",
         },
         {
@@ -398,17 +392,17 @@ export const getStaticProps = async () => {
         },
         {
           property: "twitter:title",
-          content: "Michael Logic™, The Azure Cloud Whisperer",
+          content: "Equity of the Human Spirit: Your data is the new cotton.",
           key: "ttitle",
         },
         {
           property: "twitter:description",
-          content: "Engage The Azure Whisperer to grow your ROI in the cloud with AI.",
+          content: "a true story of a Chicago born innovator that became the architect of data sovereignty",
           key: "tdescription",
         },
         {
           property: "twitter:image",
-          content: "https://michaellogic.com/assets/images/prevu/ninjamode_story01_prevu.jpg",
+          content: "https://michaellogic.com/assets/images/prevu/dinc_prevu.jpg",
           key: "timg",
         },
       ],
