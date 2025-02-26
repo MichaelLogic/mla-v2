@@ -4203,12 +4203,14 @@ h6, .h6 {
     mix-blend-mode: multiply; }
 
 .debut-content {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 740px; }
   .debut-content .eoths-title {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: block;
     max-width: 600px;
     width: 75%;
     }

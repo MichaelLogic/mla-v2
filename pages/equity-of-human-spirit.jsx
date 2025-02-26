@@ -3,6 +3,8 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
+import Sparkles from 'react-sparkle';
+
 const EquityOfHumanSpirit = () => {
   const accordionData = [
     { 
@@ -37,6 +39,15 @@ const EquityOfHumanSpirit = () => {
         className="debut-intro pb-25 rel z-1 d-none d-lg-block"
         style={{ backgroundImage: "url(assets/images/qwin/bg_desk_dinc.jpg)" }}
       >
+        <Sparkles
+          color="white"
+          count={30}
+          minSize={7}
+          maxSize={15}
+          overflowPx={0}
+          fadeOutSpeed={15}
+          flicker={false}
+        />
         <div className="container">
           <div className="debut-item">
             <div className="debut-content">
@@ -242,6 +253,15 @@ const EquityOfHumanSpirit = () => {
 
       {/* Product Display Section */}
       <section className="debut-area pb-60 rpb-70 rel z-1">
+        <Sparkles
+          color="white"
+          count={15}
+          minSize={7}
+          maxSize={15}
+          overflowPx={0}
+          fadeOutSpeed={30}
+          flicker={false}
+        />
         <div className="container container-1210">
           <div className="row justify-content-center align-items-center">
             <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
@@ -332,7 +352,8 @@ const EquityOfHumanSpirit = () => {
                 equitable future of AI for YOU.
               </h4>
             </div>
-            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+            <div className="section-title
+                            row justify-content-center align-items-center col-lg-8 mb-40 wow fadeInUp delay-0-2s">
               <a href="https://plugory.com/tera-watts" className="theme-btn style-two">
                 REGISTER NOW <i className="far fa-arrow-right" />
               </a>
