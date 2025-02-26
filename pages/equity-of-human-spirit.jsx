@@ -142,11 +142,7 @@ const EquityOfHumanSpirit = () => {
                   peers. He carried the spirit of the South Side with him; the resilience, the sharp wit, and the 
                   unyielding determination of a man who had seen struggle and refused to let it define him. Michael 
                   had watched the game evolve, watched the players change their faces, but the rules remained the 
-                  same. Keep the wealth, keep the power, keep the people chasing their own stolen labor.
-
-                  One year after engineering <a className="lil-blu-link" href="https://michaellogic.com/dashping" target="_blank"> Freight Bots™ by DashPing </a>, the first industry-wide solution 
-                  to a mandated multi-billion dollar <a className="lil-blu-link" href="https://www.regulations.gov/docket/FMCSA-2023-0172" target="_blank"> U.S. DOT issue </a>, software engineer & AI systems 
-                  visionary Michael Logic™ Davis had what he calls a “Tesla moment”.  
+                  same. Keep the wealth, keep the power, keep the people chasing their own stolen labor. 
                 </p>
                 <p>
                   Mike Logic had not yet been the victim of a data collection scam. But in February of 2025, he 
