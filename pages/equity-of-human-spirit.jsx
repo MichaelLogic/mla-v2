@@ -39,9 +39,9 @@ const EquityOfHumanSpirit = () => {
       >
         <div className="container">
           <div className="debut-item">
-            <div className="debut-content row justify-content-center">
+            <div className="debut-content">
               <img
-                  className="eoths-title"
+                  className="eoths-title mt-60"
                   src="assets/images/qwin/eoths_title_grffk.svg"
                   alt="Equity of the Human Spirit"
                 />
@@ -253,6 +253,7 @@ const EquityOfHumanSpirit = () => {
                 />
 
             </div>
+        
           </div>
         </div>
       </section>
@@ -267,7 +268,7 @@ const EquityOfHumanSpirit = () => {
             <div className="col-lg-6">
               <div className="service-about-image wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/qwin/terawatts_qwin_rnd_ig_promo01_smll.jpg"
+                  src="assets/images/qwin/terawatts_qwin_rd_ig_promo01_smll.jpg"
                   alt="About"
                 />
               </div>
@@ -296,9 +297,9 @@ const EquityOfHumanSpirit = () => {
                 </p>
                 <ul className="list-style-three pt-15 pb-25">
                   <li>Increase overall equity of an individual human</li>
-                  <li>Establish a workforce to support a new age energy infrastructure</li>
+                  <li>A workforce trained a new age energy infrastructure</li>
                   <li>Establish a heighten civil and commercial trust - <a className="lil-blu-link" href="https://www.woplli.com/architecture-principles" target="_blank"> Trust Fabric™ </a></li>
-                  <li>Realize Master Systems Integration to support edge computing infrastructure</li>
+                  <li>Master Systems Integration for edge computing infrastructure</li>
                   <li>Increase evangelism of ESG reform</li>
                 </ul>
                 {/*<Link legacyBehavior href="/about">
@@ -312,6 +313,35 @@ const EquityOfHumanSpirit = () => {
         </div>
       </section>
       {/* Services Page About Area end */}
+
+      {/* Call-To-Action Section */}
+      <section className="debut-area pb-60 rpb-70 rel z-1">
+        <div className="container container-1210">
+          <div className="row justify-content-center align-items-center">
+
+            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+              <img
+                  className="tera-watts-title"
+                  src="assets/images/qwin/terawatts_title_glow.png"
+                  alt="Project Tera Watts"
+                />
+            </div>
+            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+              <h4> 
+                Just your free registration will push this movement closer to realizing a more 
+                equitable future of AI for YOU.
+              </h4>
+            </div>
+            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+              <a href="https://plugory.com/tera-watts" className="theme-btn style-two">
+                REGISTER NOW <i className="far fa-arrow-right" />
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      {/* Call-To-Action Section end */}
 
       
       {/* Video Area start */}

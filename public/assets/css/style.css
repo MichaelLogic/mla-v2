@@ -4205,7 +4205,12 @@ h6, .h6 {
 .debut-content {
   max-width: 740px; }
   .debut-content .eoths-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: block;
     max-width: 600px;
+    width: 75%;
     }
 
   .debut-content .sub-title {
