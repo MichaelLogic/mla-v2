@@ -4173,8 +4173,8 @@ h6, .h6 {
   z-index: 1;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center; }
+  background-size: cover;
+  background-position: center top; }
 
 .debut-item {
   padding-top: 215px;
@@ -4205,9 +4205,7 @@ h6, .h6 {
 .debut-content {
   max-width: 740px; }
   .debut-content .eoths-title {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    max-width: 600px;
     }
 
   .debut-content .sub-title {
@@ -4271,16 +4269,11 @@ h6, .h6 {
     font-size: 42px; }
   .publish-details .debut-context-line {
     font-weight: 200;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    text-align: center;
     margin-bottom: 20px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
     color: var(--ygency-primary-color);
     text-transform: capitalize;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.5em;
     font-size: 16px;
     font-family: var(--ygency-third-font);}
 

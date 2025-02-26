@@ -34,12 +34,12 @@ const EquityOfHumanSpirit = () => {
 
       {/* -- Desktop -- */}
       <section
-        className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-none d-lg-block"
+        className="debut-intro pb-25 rel z-1 d-none d-lg-block"
         style={{ backgroundImage: "url(assets/images/qwin/bg_desk_dinc.jpg)" }}
       >
         <div className="container">
           <div className="debut-item">
-            <div className="debut-content">
+            <div className="debut-content row justify-content-center">
               <img
                   className="eoths-title"
                   src="assets/images/qwin/eoths_title_grffk.svg"
@@ -52,7 +52,7 @@ const EquityOfHumanSpirit = () => {
 
       {/* -- Mobile -- */}
       <section
-        className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-lg-none"
+        className="debut-intro pb-25 rel z-1 d-lg-none"
         style={{ backgroundImage: "url(assets/images/qwin/bg_mobile_dinc.jpg)" }}
       >
         <div className="container">
@@ -71,7 +71,7 @@ const EquityOfHumanSpirit = () => {
 
 
       {/* Publish Details Content Area start */}
-      <section className="publish-details mt-30 pb-50 rel z-1">
+      <section className="publish-details mt-30 pb-20 rel z-1">
         <div className="container container-1210">
           <div className="banner-inner">
             <div className="row  justify-content-center">
@@ -219,6 +219,28 @@ const EquityOfHumanSpirit = () => {
       </section>
       {/* Debut Section end */}
 
+      {/* Scrolling Headline area start */}
+      <div className="headline-area bgc-primary mb-30 pt-40 pb-30">
+        <div className="container-fluid">
+          <div className="headline-wrap marquee">
+            <span>
+              <span className="marquee-item">
+                <i className="fas fa-star-of-life" />
+                <b>URGENT FOR SAFETY</b>
+              </span>
+              <span className="marquee-item">
+                <i className="fas fa-star-of-life" />
+                <b>
+                  Qwin™ R&D is now an important mission added to Project Tera Watts to deliver a well tested tool asap!
+                </b>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      {/* Scrolling Headline Area end */}
+
+
 
       {/* Services Page About Area start */}
       <section className="service-page-about py-60 rel z-1">
@@ -259,28 +281,7 @@ const EquityOfHumanSpirit = () => {
       </section>
       {/* Services Page About Area end */}
 
-      {/* Headline area start */}
-      <div className="headline-area bgc-primary mb-30 pt-40 pb-30">
-        <div className="container-fluid">
-          <div className="headline-wrap marquee">
-            <span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Case Study: </b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>
-                  The Azure Whisperer, Michael Logic™ creates a logicstics tech AI solution
-                  to a national supply chain issue.
-                </b>
-              </span>
-            </span>
-          </div>
-        </div>
-      </div>
-      {/* Headline Area end */}
-
+      
       {/* Video Area start */}
       <div className="video-area-two rel z-1">
         <div className="container-fluid">
