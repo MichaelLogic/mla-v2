@@ -4170,9 +4170,8 @@ h6, .h6 {
 /******************* ## DEBUT Area ********************/
 /*******************************************************/
 .debut-intro {
-  z-index: 1;
-  position: relative;
-  background-position: center; }
+
+ }
 
 .debut-item {
   padding-top: 215px;
@@ -4207,7 +4206,7 @@ h6, .h6 {
     -ms-flex-align: center;
     align-items: center;
     }
-    
+
   .debut-content .sub-title {
     font-size: 18px;
     font-weight: 500;
