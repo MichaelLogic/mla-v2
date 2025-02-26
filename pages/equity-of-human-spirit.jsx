@@ -362,7 +362,7 @@ const EquityOfHumanSpirit = () => {
               </h4>
             </div>
             <div className="section-title
-                            row justify-content-center align-items-center col-lg-8 mb-80 ms-30 me-3e0 wow fadeInUp delay-0-2s">
+                            row justify-content-center align-items-center col-lg-8 mb-80 ps-30 pe-3e0 wow fadeInUp delay-0-2s">
               <a href="https://plugory.com/tera-watts" className="theme-btn style-two">
                 REGISTER NOW <i className="far fa-arrow-right" />
               </a>
