@@ -33,10 +33,12 @@ const EquityOfHumanSpirit = () => {
       {/* Page Banner Section Start */}
 
       {/* -- Desktop -- */}
-      <section className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-none d-lg-block">
+      <section
+        className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-none d-lg-block"
+        style={{ backgroundImage: "url(assets/images/qwin/bg_desk_dinc.jpg)" }}
+      >
         <div className="container">
-          <div className="debut-item"
-               style={{ backgroundImage: "url(assets/images/qwin/bg_desk_dinc.jpg)" }}>
+          <div className="debut-item">
             <div className="debut-content">
               <img
                   className="eoths-title"
@@ -49,11 +51,13 @@ const EquityOfHumanSpirit = () => {
       </section>
 
       {/* -- Mobile -- */}
-      <section className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-lg-none">
+      <section
+        className="debut-intro pt-210 rpt-150 pb-25 rel z-1 d-lg-none"
+        style={{ backgroundImage: "url(assets/images/qwin/bg_mobile_dinc.jpg)" }}
+      >
         <div className="container">
           <div className="debut-item">
-            <div className="debut-content"
-                 style={{ backgroundImage: "url(assets/images/qwin/bg_mobile_dinc.jpg)" }}>
+            <div className="debut-content">
               <img
                   className="eoths-title"
                   src="assets/images/qwin/eoths_title_grffk.svg"
