@@ -4172,7 +4172,6 @@ h6, .h6 {
 .debut-intro {
   z-index: 1;
   position: relative;
-  background-size: cover;
   background-position: center; }
 
 .debut-item {
@@ -4203,6 +4202,12 @@ h6, .h6 {
 
 .debut-content {
   max-width: 740px; }
+  .debut-content eoths-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+    
   .debut-content .sub-title {
     font-size: 18px;
     font-weight: 500;
