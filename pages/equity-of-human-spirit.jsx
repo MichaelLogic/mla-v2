@@ -36,7 +36,7 @@ const EquityOfHumanSpirit = () => {
 
       {/* -- Desktop -- */}
       <section
-        className="debut-intro pb-25 rel z-1 d-none d-lg-block"
+        className="debut-intro pb-25 rel z-1 d-none d-md-block"
         style={{ backgroundImage: "url(assets/images/qwin/bg_desk_dinc.jpg)" }}
       >
         <Sparkles
@@ -63,7 +63,7 @@ const EquityOfHumanSpirit = () => {
 
       {/* -- Mobile -- */}
       <section
-        className="debut-intro pb-25 rel z-1 d-lg-none"
+        className="debut-intro pb-25 rel z-1 d-md-none"
         style={{ backgroundImage: "url(assets/images/qwin/bg_mobile_dinc.jpg)" }}
       >
       <Sparkles
@@ -326,9 +326,9 @@ const EquityOfHumanSpirit = () => {
                 </p>
                 <ul className="list-style-three pt-15 pb-25">
                   <li>Increase overall equity of an individual human</li>
-                  <li>A workforce trained a new age energy infrastructure</li>
-                  <li>Establish a heighten civil and commercial trust - <a className="lil-blu-link" href="https://www.woplli.com/architecture-principles" target="_blank"> Trust Fabric™ </a></li>
-                  <li>Master Systems Integration for edge computing infrastructure</li>
+                  <li>A workforce trained a new age energy</li>
+                  <li>Heighten civil & commercial trust - <a className="lil-blu-link" href="https://www.woplli.com/architecture-principles" target="_blank"> Trust Fabric™ </a></li>
+                  <li>Master Systems Integration for edge computing</li>
                   <li>Increase evangelism of ESG reform</li>
                 </ul>
                 {/*<Link legacyBehavior href="/about">
@@ -355,14 +355,14 @@ const EquityOfHumanSpirit = () => {
                   alt="Project Tera Watts"
                 />
             </div>
-            <div className="section-title col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+            <div className="section-title col-lg-6 justify-content-center mb-40 wow fadeInUp delay-0-2s">
               <h4> 
                 Just your free registration will push this movement closer to realizing a more 
                 equitable future of AI for YOU.
               </h4>
             </div>
             <div className="section-title
-                            row justify-content-center align-items-center col-lg-8 mb-40 wow fadeInUp delay-0-2s">
+                            row justify-content-center align-items-center col-lg-8 mb-80 ms-30 me-3e0 wow fadeInUp delay-0-2s">
               <a href="https://plugory.com/tera-watts" className="theme-btn style-two">
                 REGISTER NOW <i className="far fa-arrow-right" />
               </a>
