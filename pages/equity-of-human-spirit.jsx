@@ -49,7 +49,7 @@ const EquityOfHumanSpirit = () => {
           flicker={false}
         />
         <div className="container">
-          <div className="debut-item">
+          <div className="debut-item justify-content-center">
             <div className="debut-content">
               <img
                   className="eoths-title mt-60"
@@ -66,11 +66,20 @@ const EquityOfHumanSpirit = () => {
         className="debut-intro pb-25 rel z-1 d-lg-none"
         style={{ backgroundImage: "url(assets/images/qwin/bg_mobile_dinc.jpg)" }}
       >
+      <Sparkles
+          color="white"
+          count={30}
+          minSize={5}
+          maxSize={13}
+          overflowPx={0}
+          fadeOutSpeed={15}
+          flicker={false}
+        />
         <div className="container">
           <div className="debut-item">
             <div className="debut-content">
               <img
-                  className="eoths-title"
+                  className="eoths-title mt-120"
                   src="assets/images/qwin/eoths_title_grffk.svg"
                   alt="Equity of the Human Spirit"
                 />
