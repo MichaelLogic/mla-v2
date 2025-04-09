@@ -79,7 +79,7 @@ const EquityOfHumanSpirit = () => {
           <div className="debut-item">
             <div className="debut-content">
               <img
-                  className="eoths-title mt-120"
+                  className="eoths-title mt-180"
                   src="assets/images/qwin/eoths_title_grffk.svg"
                   alt="Equity of the Human Spirit"
                 />

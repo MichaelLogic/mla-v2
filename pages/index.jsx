@@ -481,9 +481,9 @@ const index = () => {
       <div className="video-area-five rel z-1">
         <div className="container container-1290">
           <div className="video-part style-three wow fadeInUp delay-0-2s row justify-content-center">
-            <img src="assets/images/video/push_button_theory_cvr.jpg" alt="Michael Logic's Push Button Theory" />
+            <img src="assets/images/video/genesis_of_tomorrow_cvr.jpg" alt="Genesis of Tomorrow Podcast Ep. 32" />
             <a
-              href="https://www.youtube.com/watch?v=JPAvlNEvtGo"
+              href="https://www.youtube.com/watch?tg7Hi3RlD6I"
               className="mfp-iframe video-play"
             >
               <i className="fas fa-play" />
