@@ -483,7 +483,7 @@ const index = () => {
           <div className="video-part style-three wow fadeInUp delay-0-2s row justify-content-center">
             <img src="assets/images/video/genesis_of_tomorrow_cvr.jpg" alt="Genesis of Tomorrow Podcast Ep. 32" />
             <a
-              href="https://www.youtube.com/watch?tg7Hi3RlD6I"
+              href="https://www.youtube.com/watch?v=tg7Hi3RlD6I"
               className="mfp-iframe video-play"
             >
               <i className="fas fa-play" />
