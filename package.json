@@ -1,9 +1,9 @@
 {
   "name": "dream-merch-react",
-  "version": "1.9.14",
+  "version": "1.9.15",
   "private": false,
   "publishConfig": {
-    "registry": "https://pkgs.dev.azure.com/BHEC-DA2/_packaging/DreamMerchant_Artfx/npm/registry/"
+    "registry": "https://pkgs.dev.azure.com/OpenPlugoryNetwork/DreamMerchant-Portal/_packaging/DreamMerchantFeed/npm/registry/"
   },
   "scripts": {
     "dev": "next dev",
