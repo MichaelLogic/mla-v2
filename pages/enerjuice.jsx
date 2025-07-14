@@ -309,7 +309,7 @@ const UniversityArticle = () => {
                   change investors to initialize the next phase of Plugory.  (learn more)
                 </p>
                 <div className="mt-30">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/Plugory_YouthWorkProgram_r03.pdf" 
+                  <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/Plugory_YouthWorkProgram_r03.pdf" 
                      className="theme-btn style-two"
                      target="_blank">
                     View PDF <i className="far fa-arrow-right" />

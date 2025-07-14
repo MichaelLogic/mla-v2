@@ -1,6 +1,6 @@
 {
   "name": "dream-merch-react",
-  "version": "1.9.16",
+  "version": "1.9.18",
   "private": false,
   "publishConfig": {
     "registry": "https://pkgs.dev.azure.com/OpenPlugoryNetwork/DreamMerchant-Portal/_packaging/DreamMerchantFeed/npm/registry/"

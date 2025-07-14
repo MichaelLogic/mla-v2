@@ -204,7 +204,7 @@ const Story = () => {
                   Talent Pipeline Challenge</b>.
                 </p>
                 <div className="mt-30">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/pushinkeys_workforce_program_no_ask.pdf" 
+                  <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/pushinkeys_workforce_program_no_ask.pdf" 
                      className="theme-btn style-two"
                      target="_blank">
                     View PDF <i className="far fa-arrow-right" />

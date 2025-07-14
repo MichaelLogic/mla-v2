@@ -196,7 +196,7 @@ const AiServiceDetails = () => {
                   <h2>BH Engineering Creates Innovative RegTech with Azure™ & OpenAI™</h2>
                 </div>
                 <div className="row gap-60">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf" 
+                  <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/lor_bhengineering_aug2023.pdf" 
                      className="read-more mt-10 mb-50 color-primary"
                      target="_blank">
                     Read Full Testimonial <i className="far fa-arrow-right" />
@@ -207,7 +207,7 @@ const AiServiceDetails = () => {
             <div className="col-xl-6">
               <div className="row justify-content-between align-items-center">
                 <div className="service-about-image style-two wow fadeInRight delay-0-2s">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/lor_bhengineering_aug2023.pdf"
+                  <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/lor_bhengineering_aug2023.pdf"
                      target="_blank">
                     <img
                       src="assets/images/about/lor_bh_engineering_thum.jpg"

@@ -237,7 +237,7 @@ const ModernizeArticle = () => {
                     firm marketing practices. His interesting study birthed an evolved way for Illinois 
                     citizens to seek legal assistance. Optimizing the matching of legal experts with 
                     citizens in immediate need can improve quality of life for both client and esquire. 
-                    Michael calls it “<a className="lil-blu-link" href="https://mlams01.blob.core.windows.net/whitepapers/LoopLegendsOfficial.pdf" target="_blank">Loop Legends</a>”
+                    Michael calls it “<a className="lil-blu-link" href="https://pluggostore.blob.core.windows.net/mla-whitepaper/LoopLegendsOfficial.pdf" target="_blank">Loop Legends</a>”
                   </p>
                 </div>
 
@@ -318,7 +318,7 @@ const ModernizeArticle = () => {
                   Talent Pipeline Challenge</b>.
                 </p>
                 <div className="mt-30">
-                  <a href="https://mlams01.blob.core.windows.net/whitepapers/pushinkeys_workforce_program_no_ask.pdf" 
+                  <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/pushinkeys_workforce_program_no_ask.pdf" 
                      className="theme-btn style-two"
                      target="_blank">
                     View PDF <i className="far fa-arrow-right" />

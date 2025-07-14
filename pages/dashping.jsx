@@ -125,7 +125,7 @@ const DashPing = () => {
               <h4>
                 Freight Bots™ Benchmark Challenge Report: Compass United Carrier
               </h4>
-              <a href="https://mlams01.blob.core.windows.net/whitepapers/compass_benchmark_report-nov2022_r4.pdf" 
+              <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/compass_benchmark_report-nov2022_r4.pdf" 
                  className="mt-30" 
                  target="_blank">
                 <img
@@ -133,7 +133,7 @@ const DashPing = () => {
                     alt="Benchmark Challenge Report: Compass United Carrier"
                   />
               </a>
-              <a href="https://mlams01.blob.core.windows.net/whitepapers/compass_benchmark_report-nov2022_r4.pdf" 
+              <a href="https://pluggostore.blob.core.windows.net/mla-whitepaper/compass_benchmark_report-nov2022_r4.pdf" 
                  className="read-more mt-10 mb-50 color-primary"
                  target="_blank">
                 Read Full Report <i className="far fa-arrow-right" />
