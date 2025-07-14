@@ -8,11 +8,11 @@ trigger:
 stages:
   - stage: Build
     displayName: 'Build Dream Merchant Marketing App'
-    pool: 'DreamMerch Pool'
+    pool: '$(agtPool)'
     jobs:
     - job: BuildFrontend
       displayName: 'Install Node, Build, & Publish Artifact'
-      pool: 'DreamMerch Pool'
+      pool: '$(agtPool)'
       steps:
       # Create or update the ACR resource
       - task: AzureResourceGroupDeployment@2
@@ -52,7 +52,7 @@ stages:
       #Build & Push Image to Container Registry
       - task: Docker@2
         inputs:
-          containerRegistry: 'DreamMerchantDockerRegistry'
+          containerRegistry: $(acrServiceName)
           repository: '$(frontEndImageName)'
           command: 'buildAndPush'
           Dockerfile: '**/Dockerfile'
