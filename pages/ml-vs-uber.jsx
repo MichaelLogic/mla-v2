@@ -549,7 +549,7 @@ const UniversityArticle = () => {
               <div className="video-part style-two wow mb-30 fadeInUp delay-0-2s">
                 <img src="assets/images/video/ffcn_videocover_web.jpg" alt="Fair Freight Compliance Network" />
                 <a
-                  href="https://www.youtube.com/watch?v=Wua0RcEU07w"
+                  href="https://www.youtube.com/watch?v=wnpEi8K6pWI"
                   className="mfp-iframe video-play"
                 >
                   <i className="fas fa-play" />

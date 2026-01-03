@@ -97,7 +97,7 @@ const DashPing = () => {
                 <div className="video-part style-two wow fadeInUp delay-0-2s">
                   <img src="assets/images/video/dashping_founders_cvr.jpg" alt="DashPing Founders Video" />
                   <a
-                    href="https://www.youtube.com/watch?v=m4yGIS3eVZ0"
+                    href="https://www.youtube.com/watch?v=MKty0CbNY2E"
                     className="mfp-iframe video-play"
                   >
                     <i className="fas fa-play" />
@@ -110,7 +110,7 @@ const DashPing = () => {
                 <div className="video-part style-two wow fadeInUp delay-0-2s">
                   <img src="assets/images/video/dashping_maya_cvr.jpg" alt="Freight Bots: Maya is About That Life Video" />
                   <a
-                    href="https://www.youtube.com/watch?v=Ux8h1qru8w4"
+                    href="https://www.youtube.com/watch?v=UL31gdT2B1k"
                     className="mfp-iframe video-play"
                   >
                     <i className="fas fa-play" />
@@ -158,7 +158,7 @@ const DashPing = () => {
                   <div className="video-part style-two wow fadeInUp delay-0-2s">
                     <img src="assets/images/video/v3_cvr.jpg" alt="Freight Bots Benchmark Challenge Video" />
                     <a
-                      href="https://www.youtube.com/watch?v=cE-N1Df2qDE"
+                      href="https://www.youtube.com/watch?v=GcxQqWZF5xI"
                       className="mfp-iframe video-play"
                     >
                       <i className="fas fa-play" />
@@ -170,7 +170,7 @@ const DashPing = () => {
                   <div className="video-part style-two wow fadeInUp delay-0-2s">
                     <img src="assets/images/video/tms_war_cvr.jpg" alt="TMS War Video" />
                     <a
-                      href="https://www.youtube.com/watch?v=25_jh-M1Y74"
+                      href="https://www.youtube.com/watch?v=wo-LFmNbiK8"
                       className="mfp-iframe video-play"
                     >
                       <i className="fas fa-play" />
